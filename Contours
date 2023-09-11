@@ -1,0 +1,7 @@
+# Contours - Drawing, Hierarchy and Modes
+
+Contours are continous lines or curves that bound or cover the full boundary of an object.
+
+## Applying cv2.findContours()
+**NOTE**: for findCountours to work, the background has to be balck and foreground (i.e. the text or objects). Otherwise you'll need to invert the image by using cv2.bitwise_not(input image)
+
