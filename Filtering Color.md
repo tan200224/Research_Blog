@@ -67,4 +67,50 @@ Several algorithms were introduced for this purpose. In the following, we will h
 
 https://github.com/rajeevratan84/ModernComputerVision/raw/main/walking_short_clip.mp4
 
+<img width="518" alt="image" src="https://github.com/tan200224/Blog/assets/68765056/6bf5ecb0-c053-45ed-9478-015b8c82e67b">
+
+
+## Foreground Subtraction
+
+    cap = cv2.VideoCapture('walking_short_clip.mp4')
+    
+    # Get the height and width of the frame (required to be an interfer)
+    w = int(cap.get(3))
+    h = int(cap.get(4))
+    
+    # Define the codec and create VideoWriter object.The output is stored in 'outpy.avi' file.
+    out = cv2.VideoWriter('walking_output.avi', cv2.VideoWriter_fourcc('M','J','P','G'), 30, (w, h))
+    ret, frame = cap.read()
+    
+    # Create a flaot numpy array with frame values
+    average = np.float32(frame)
+    
+    while True:
+        # Get frame
+        ret, frame = cap.read()
+    
+        if ret: 
+          
+          # 0.01 is the weight of image, play around to see how it changes
+          cv2.accumulateWeighted(frame, average, 0.01)
+          
+          # Scales, calculates absolute values, and converts the result to 8-bit
+          background = cv2.convertScaleAbs(average)
+    
+          imshow('Input', frame)
+          imshow('Disapearing Background', background)
+          out.write(background)
+    
+        else:
+          break
+    
+    cap.release()
+    out.release()
+
+    cv2_imshow(background)
+![image](https://github.com/tan200224/Blog/assets/68765056/5ed0293e-7057-4748-aca5-67d0093ae00e)
+
+
+
+
 
