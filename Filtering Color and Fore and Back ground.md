@@ -2,6 +2,7 @@
 1. How to use the HSV Color Space to Filter by Color
 
 ![image](https://github.com/tan200224/Blog/assets/68765056/e1f40770-dc4d-4010-9fcc-f2648a23e3d8)
+
 Hue: 0 - 179
 Saturation: 0 - 255
 Value (Intensity): 0 - 255
