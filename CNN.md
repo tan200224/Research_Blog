@@ -39,9 +39,11 @@ In the past, a lot of features were hand-crafted, which was very hard, messy and
 
 # Convolution Operations on Color Images
 <img width="1073" alt="image" src="https://github.com/tan200224/Blog/assets/68765056/34cab874-0b3d-4084-b7ef-243ec11a3f4b">
-The Advantages of Having a Filter For Each Colours
+### The Advantages of Having a Filter For Each Colour:
+* We can detect features that are specific to a Colour
 
-
+### How do Multiple Filters Affect Our Output?
+<img width="973" alt="image" src="https://github.com/tan200224/Blog/assets/68765056/74e729c9-1fb2-4e03-97bf-e920b9fd1df0">
 
 
 
