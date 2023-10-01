@@ -25,7 +25,7 @@
 ### What are Parameters or weights
 * They are the variables that need to be learnt when training a Model
 * Often called learnable parameters or weights
-* Our hidden layers, like the Convolution or Fully COnnected Layers have weights.
+* Our hidden layers, like the Convolution or Fully Connected Layers have weights.
 
 
 Calculating Learnable Parameters in a Conv Filter
@@ -55,9 +55,61 @@ Calculating Learnable Parameters in a Conv Filter
 
 
 ### Advantages of Convolution Neural Networks
-* Parameter sharing - where a single filter can be used all parts of an image
+* Parameter sharing - where a single filter can be used for all parts of an image
 * Sparsity of connections - As we saw, fully connected layers in a typical Neural Network result in a weight matrix with a large number of parameters.
 * Invariance - Max Pool Example
+
+
+Convolution Neural Networks Assumptions
+* Low-level features are local (it means features are all centered or close together so that it gives us the ability to use small filters to detect features in those low-level features)
+* Features are translational invariant
+* High-level features are made up of low-level features
+
+<img width="854" alt="image" src="https://github.com/tan200224/Blog/assets/68765056/d4554cbd-70a8-4421-9c0c-384a000a791b">
+
+
+
+# Training CNN
+### A high-level view of how the training process works
+
+### What Conv Filter Learn
+* Typically, early layers of our CNN learn low-level features
+* Mid-level layers learn simple patterns
+* High-level layers learn more structured complex patterns
+
+<img width="449" alt="image" src="https://github.com/tan200224/Blog/assets/68765056/66f20298-5f8e-4547-ba6f-0d61ee321812">
+
+### What Happens During Training?
+* Initialze random weight values for our trainable parameters
+* Forward propagate an image or batch of images through our network
+* Calculate the total error
+* Use Back Propagation to update our gradients (weights) via Gradient Descent
+* Propagate more images (or batch) and update weights until all images have been propagated (one epoch)
+* Repeat a few more epochs (i.e. passing all image batches through our network) until our loss reaches satisfactory values
+
+ 
+### The Training Process 
+We input the images, and it produces the result with a score that can indicate how well the model performs
+<img width="808" alt="image" src="https://github.com/tan200224/Blog/assets/68765056/f46c0752-b46b-48ed-8a8d-453a0379c0e3">
+
+
+### We need to learn from our result
+1. we need to find a way to quantify how correct our result is.
+2. We need a way to tell the model it needs to do better.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
