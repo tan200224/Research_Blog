@@ -343,8 +343,100 @@ Net(
       epoch_log.append(epoch_num)
       loss_log.append(actual_loss)
       accuracy_log.append(accuracy)
+    print('Finished Training')
+    
 
-print('Finished Training')
+## Saving Model
+We use the torch.save() function to save our model.
+net.state_dict() saves our model weights in a dictionary format.
+
+    PATH = './mnist_cnn_net.pth'
+    torch.save(net.state_dict(), PATH)
+
+
+### Reload the model
+
+    # Create an instance of the model and move it (memory and operations) to the CUDA device.
+    net = Net()
+    net.to(device)
+    
+    # Load weights from the specified path
+    net.load_state_dict(torch.load(PATH))
+
+
+## Getting Predictions
+### look at some images from your Test Data and view their Ground Truth labels
+
+    # Loading one mini-batch
+    dataiter = iter(testloader)
+    images, labels = dataiter.next()
+    
+    # Display images using torchvision's utils.make_grid()
+    imshow(torchvision.utils.make_grid(images))
+    print('GroundTruth: ',''.join('%1s' % labels[j].numpy() for j in range(128)))
+
+![image](https://github.com/tan200224/Blog/assets/68765056/e36cc3af-85f0-4fe3-abf6-fbe78e8da7eb)
+
+GroundTruth:  72104149590690159734966540740131347271211742351244635560419578937464307029173297762784736136931417696054992194873974449254767905
+
+### Showing our Test Accuracy
+
+    correct = 0
+    total = 0
+    
+    with torch.no_grad():
+        for data in testloader:
+            images, labels = data
+            # Move our data to GPU
+            images = images.to(device)
+            labels = labels.to(device)
+            outputs = net(images)
+            _, predicted = torch.max(outputs.data, 1)
+            total += labels.size(0)
+            correct += (predicted == labels).sum().item()
+    
+    accuracy = 100 * correct / total
+    print(f'Accuracy of the network on the 10000 test images: {accuracy:.3}%')
+
+
+
+## Plotting our Training Logs
+
+    # To create a plot with secondary y-axis we need to create a subplot
+    fig, ax1 = plt.subplots()
+    
+    # Set title and x-axis label rotation
+    plt.title("Accuracy & Loss vs Epoch")
+    plt.xticks(rotation=45)
+    
+    # We use twinx to create a plot a secondary y axis
+    ax2 = ax1.twinx()
+    
+    # Create plot for loss_log and accuracy_log
+    ax1.plot(epoch_log, loss_log, 'g-')
+    ax2.plot(epoch_log, accuracy_log, 'b-')
+    
+    # Set labels
+    ax1.set_xlabel('Epochs')
+    ax1.set_ylabel('Loss', color='g')
+    ax2.set_ylabel('Test Accuracy', color='b')
+    
+    plt.show()
+
+![image](https://github.com/tan200224/Blog/assets/68765056/ea219fbe-cf14-441f-906d-b365a566523d)
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
