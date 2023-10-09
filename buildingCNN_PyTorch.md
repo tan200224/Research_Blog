@@ -1,14 +1,14 @@
-# The Frame work of buliding a CNN
+# The Frame work of building a CNN
 1. Import Pytorch Library and functions
 2. Define Transformer
 3. Load dataset
-4. Inspect and Visualize image dataset
+4. Inspect and Visualize the image dataset
 5. Create data loader for load batches of images
-6. Builiding Model
+6. Building Model
 7. Training Model
-8. Analyizing it's Accuracy
+8. Analyzing its Accuracy
 9. Saving Model
-10. Plotting trainging logs
+10. Plotting training logs
 
 
 ## Import libaries and modules
@@ -260,7 +260,7 @@ Net(
     # We use Cross Entropy Loss as our loss function
     criterion = nn.CrossEntropyLoss()
     
-    # For our gradient descent algorthim or Optimizer
+    # For our gradient descent algorithm or Optimizer
     # We use Stochastic Gradient Descent (SGD) with a learning rate of 0.001
     # We set the momentum to be 0.9
     optimizer = optim.SGD(net.parameters(), lr=0.001, momentum=0.9)
