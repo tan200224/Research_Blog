@@ -54,4 +54,54 @@
 
 
 # Dropout
-Unlike L1 and L2 
+* Unlike L1 and L2 normalization, dropout doesn't modify the loss function
+* It modifies the network itself instead
+* It works by randomly dropping out a number of nodes of a layer during training
+
+<img width="877" alt="image" src="https://github.com/tan200224/Blog/assets/68765056/c9e83d8d-2e3b-4b9a-bd6b-b107e6547e43">
+
+## Dropout Note
+* The fraction of amount of nodes we drop depends on the Dropout Rate
+* It forces the network to learn more robust/reliable features as it acts like we trained several different networks
+* Effectively double the number of iterations required to converge
+* In testing, we use all activations but reduce them by a factor of p to account for the missing activations during training. 
+
+# Data Augmentation
+* One of the most effective ways of reducing overfitting
+* It solves the problem of not having enough data or not enough variation in our dataset
+* Image datasets lend themselves easily to applying data augmentation
+
+# Data Augmentation Variety 
+Both Keras and PyTorch Provide data Augmentation functions that offer many image manipulations, such as:
+* Flipping
+* Brightness
+* Rotation
+* Zoom
+* Cropping
+* Skew
+
+## More on Data Augmentation
+* It is only done on our training dataset
+* In most standard implementations, we aren't  creating new data, but we manipulating our existing input data
+
+
+# Early Stopping
+### The Over Training Problem
+* At some point during our training process, our validation loss may stagnate or stop decreasing and sometimes actually start to increase
+* At this point, you should not continue training
+* The method by which we detect diminishing return in training and thus stop training our model is called early stop
+
+<img width="874" alt="image" src="https://github.com/tan200224/Blog/assets/68765056/3c16a9cf-8fd8-4dca-8912-cff1629b4d5e">
+
+
+# Batch Normalization
+
+
+
+
+
+
+
+
+
+
