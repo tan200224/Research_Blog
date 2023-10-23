@@ -95,6 +95,41 @@ Both Keras and PyTorch Provide data Augmentation functions that offer many image
 
 
 # Batch Normalization
+* The Batch Norm Technique helps coordinate the update of multiple layers in a model
+* It standardizes the activations of the prior layer, thus scaling the output of the layer
+* It reparamatizes the model to make some units always be standardized by definition
+* It reduces internal covariate shifts.
+
+## Implementing BatchNorm
+
+<img width="862" alt="image" src="https://github.com/tan200224/Blog/assets/68765056/5e2a53f6-4de5-4dd7-b9d0-243dec87f619">
+
+## Advice on Using BatchNOrm in CNNS
+
+<img width="826" alt="image" src="https://github.com/tan200224/Blog/assets/68765056/09605cb9-1049-4b05-96e7-043390da3f51">
+
+
+# When to Use Regularization
+### Training without regularization first
+* It is good practice always to train your model without regularization first
+* Sometimes, regularization techniques can have detrimental effects on the model performance
+* Dropout and Batch Norm also increase the convergence time
+* It is always good to have a baseline model and introduce different regularization techniques one by one to assess its impact
+
+# Regularization Warnings and Tips
+* Dropout - Don't use it before the final softmax layer
+* Regularization does not offer much help to smaller, less complex networks
+* Not enough Epochs - With L2, Dropout, and data Augmentation, we do need more epochs to achieve the same performance
+* Data Augmentation and Dropout add additional computations in training and can slow it down
+* Under-fitting is possible if your L2 weight penalty is too high. 
+
+
+
+
+
+
+
+
 
 
 
