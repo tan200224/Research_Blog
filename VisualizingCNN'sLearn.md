@@ -36,8 +36,11 @@ Each small image represents the output of the filter
 
 
 <img width="1894" alt="image" src="https://github.com/tan200224/Blog/assets/68765056/59432264-8946-4a76-8980-fff1ae41c73f">
+
 * We can see as we progress from the early layers (left) to the deeper layers (right) our feature maps show less detail
+
 * This shows that the "image" dimensions get smaller as they progress through the CNN (most cases) and that the deeper Conv layers are activated by combinations of lower layers
+  
 * That enables them to learn more complex patterns (a combo of lower filters is needed to activate an upper layer)
 
 <img width="1061" alt="image" src="https://github.com/tan200224/Blog/assets/68765056/9511e186-4cc3-469b-88eb-34db1c41fcba">
