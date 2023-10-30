@@ -13,8 +13,8 @@
 
 
 # Filter Activation of Convolution Neural Network
-## Fukter Activations
-* WHen an input image is fed into our CNN, filters (some) "activate."
+## Filter Activations
+* When an input image is fed into our CNN, filters (some) "activate."
 * This is the output of the ReLU layer
 
 <img width="649" alt="image" src="https://github.com/tan200224/Blog/assets/68765056/9269f98f-3bca-416f-b2bb-480bef5aa51c">
