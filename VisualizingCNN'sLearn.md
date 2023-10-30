@@ -95,6 +95,12 @@ Each small image represents the output of the filter
 
 <img width="1106" alt="image" src="https://github.com/tan200224/Blog/assets/68765056/80d10a69-0201-4569-a8f9-65c8aca4ea04">
 
+## How does Grad-CAM work?
+* Grad-CAM exploits the spatial information that is preserved in Conv Layers
+* It uses the feature maps produced by the last CNN layer
+* We insert some differentiable (so that we can get the gradients) layers after the last Conv filter outputs
+* We weigh the feature maps using "alpha values" that we calculated based on gradients
+* This is used to make a heat map, we can create one for each output class
 
 
 
