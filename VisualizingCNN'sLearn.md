@@ -89,9 +89,11 @@ Each small image represents the output of the filter
 ## One Pixel Attacks
 <img width="266" alt="image" src="https://github.com/tan200224/Blog/assets/68765056/b8e32762-2357-4944-a393-bdeddc31210d">
 
-# Grad-CAM: Visualize What influences Your Model
+# Grad-CAM: Visualize What Influences Your Model
 
+<img width="845" alt="image" src="https://github.com/tan200224/Blog/assets/68765056/3b056367-fe7c-473e-86c5-7c3c25013246">
 
+<img width="1106" alt="image" src="https://github.com/tan200224/Blog/assets/68765056/80d10a69-0201-4569-a8f9-65c8aca4ea04">
 
 
 
