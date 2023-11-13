@@ -85,7 +85,7 @@ Classical CNNS Give Worse Performance if too Deep
     * Resolution Multiplier - Reduces the input image size and thus reduces the internal representation of every subsequent layer. 
 
 # Inception Network Motivation
-* As you've seem there's a lot of parameter tweaking involved in CNNs
+* As you've seen there's a lot of parameter tweaking involved in CNNs
 * Filter Size, stride, depth, padding, FC layers etc.
 * Inception aimed to solve the filter size selection problem.
 
@@ -124,31 +124,65 @@ Classical CNNS Give Worse Performance if too Deep
     * This is often tedious to experiment with, requires manual tuning and result in suboptimal result.
 * What if there was a more principled method to scale up CNNs?
 
+## EfficientNet's Scaling Method Compound Coefficient
+* This method uniformly scales each dimension (width, depth, resolution) with a fixed set of scaling coefficients
+* It utilizes Google's new AutoML
+* The EfficientNet Family of models are able to surpass state-of-the-art accuracy with 10x better efficiency 
 
 
+## Scaling
+* Researchers systemically studied the effects of scaling up different dimensions.
+* It was found that balancing scaling in all dimensions resulted in the best overall performance. 
+
+<img width="827" alt="image" src="https://github.com/tan200224/Blog/assets/68765056/f07ded18-36f6-468d-9939-505502e7c975">
+
+## EfficientNet Architecture
+* The compound scaling methodology can be applied to any CNN
+* The effectiveness of model scaling depends heavily on the baseline network.
+* Researchers developed a new baseline network by performing a neural architecture search using AutoML's MNAS framework, which optimizes both accuracy and efficiency
+* Their new architecture using mobile inverted bottleneck convolution is similar to MobileNetV2, but is slightly larger due to the increased FLOP budgets
+
+<img width="461" alt="image" src="https://github.com/tan200224/Blog/assets/68765056/01f1a020-5b50-4686-a718-0a2f7d2d1ba3">
 
 
+# DenseNEts
+**ResNets but better!**
+Densely Connected Convolutional Neural Networks
+* Introduced in 2016 jointly by Cornwell University, Tsinghua University and Facebook AI Research
+* It was able to attain higher accuracy than ResNet with fewer parameters
 
 
+Motivation 
+* Training Deep CNNs is problematic due to vanishing gradients
+* This is because the path for the deep network becomes so long gradients go to zero before completing the path (vanish)
+* DenseNets solve this by using an ingenious concept of "collective knowledge" where each layer received info from all previous layers
+
+<img width="851" alt="image" src="https://github.com/tan200224/Blog/assets/68765056/fe5a088c-ede9-49d1-8bf1-0001b763d4b2">
+
+<img width="853" alt="image" src="https://github.com/tan200224/Blog/assets/68765056/4dd59eaa-250a-4a4a-acb3-e471a2eb7e6c">
+
+<img width="854" alt="image" src="https://github.com/tan200224/Blog/assets/68765056/37e485b4-7f01-455d-ada3-eca5c6aeffe0">
+
+<img width="862" alt="image" src="https://github.com/tan200224/Blog/assets/68765056/3e6e3216-2637-42e9-ae9d-3abb397fe2e0">
 
 
+# ImageNet
+**Why ImageNet is so important to the computer vision World**
+* Currently the world's largest dataset of labeled image
+
+## ImageNet - ILSVR
+* The most highly-used subset of ImageNet is the ImageNet Large Scale Visual Recognition Challenge (ILSVRC)
+* The dataset spans 1000 object classes and contains 1281167 training images, 50000 validation images and 100000 test images. This subset is available on Kaggle
+* It is the most common benchmark used when evaluating new exotic CNN models. 
+
+## What makes it so good? It's Size
+<img width="595" alt="image" src="https://github.com/tan200224/Blog/assets/68765056/247b3dd3-841c-47dc-bfab-6f215b7c9dc2">
 
 
+# ImageNet- Current State of Art Performance 
+<img width="858" alt="image" src="https://github.com/tan200224/Blog/assets/68765056/185a24c1-5445-4cf7-b137-27d0ed107c5c">
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+<img width="869" alt="image" src="https://github.com/tan200224/Blog/assets/68765056/a858a8f5-82f7-4e83-aaf6-6b12311dadf7">
 
 
 
