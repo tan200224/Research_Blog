@@ -36,4 +36,35 @@ net.eval() is a kind of switch for some specific layers/parts of the model that 
     model.eval()
 
 
+## Rank-N
+* Rank-N Accuracy is a way to measure a classifier's accuracy with a bit more leeway.
+
+![image](https://github.com/tan200224/Blog/assets/68765056/43c55a03-7171-4053-8d8c-343aeabd2168)
+
+* it will return "Shetland sheepdog" as the predicted class (highest probability). However, that would be incorrect
+* The correct class, "Collie" is actually the second most probable, which means the classifier is still doing quite well, but it is not reflected if we only look at the top predicted class.
+* For example, Rank-5, will consider any of the top 5 most likely classes for the predicted label
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
