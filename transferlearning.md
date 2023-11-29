@@ -42,8 +42,35 @@ The intuition behind this is earlier feature maps in ConvNet learn generic featu
 * * Learning Rates - use very small learning rate for pre-trained models, especially when fine-tuning. This is because we know the pre-trained weights are already very good and thus don't want to change time too much
 * * Due to parameter sharing, you can train a pre-trained network on images of different sizes.
  
-  
+# Code  
 
+    class ImagenetTransferLearning(pl.LightningModule):
+        def __init__(self):
+            super().__init__()
+    
+            self.accuracy = torchmetrics.Accuracy()
+    
+            # init a pretrained resnet
+            # load the ResNet model as backbone
+            backbone = models.resnet50(pretrained=True)
+
+            # Get the all the layers except the last one, but the last one has 1000 outputs
+            num_filters = backbone.fc.in_features
+            layers = list(backbone.children())[:-1]
+            self.feature_extractor = nn.Sequential(*layers)
+            
+            # use the pretrained model
+            # Now we just add the last layer with 2 output to the network 
+            num_target_classes = 2
+            self.classifier = nn.Linear(num_filters, num_target_classes)
+    
+        def forward(self, x):
+            # Change our forward function to include the 4 lines below
+            self.feature_extractor.eval()
+            with torch.no_grad():
+                representations = self.feature_extractor(x).flatten(1)
+            x = self.classifier(representations)
+            return F.softmax(x,dim = 1) 
 
 
 
