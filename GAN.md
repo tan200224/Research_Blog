@@ -210,6 +210,8 @@ First introduced in 2014 by lan Goodfellow et al. GANs are a type of Neural Netw
         plt.imshow(generated_samples[i].reshape(28,28), cmap='gray')
         plt.xticks([])
         plt.yticks([])
-    
+
+<img width="448" alt="image" src="https://github.com/tan200224/Blog/assets/68765056/19575f5e-8967-4987-a08c-ffcc1da443ca">
+
 
     
