@@ -29,6 +29,8 @@
 # Question
 
 What do annotation and labels mean for Machine Learning? 
+- It may not just be a text that says "Cancer" or "Not Cancer."
 
 Image classification vs. Object Detection vs. Image Segmentation 
 <img width="1814" alt="image" src="https://github.com/tan200224/Blog/assets/68765056/b342247c-b048-4383-b88e-d149e7fd69ad">
+
