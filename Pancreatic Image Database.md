@@ -8,8 +8,7 @@
    
 4. [Multiplex-Immunoflourescent Staining of Rapid Autopsy Samples from Human Pancreatic Cancer at the Primary and Metastatic Sites](https://edrn-labcas.jpl.nasa.gov/labcas-ui/c/index.html?collection_id=Multiplex_IF_Staining_Pancreatic_Cancer)
    
-5. Label unbalanced with large background, medium pancreas, and small tumor structures, 420 3D CT Scans
-[A large annotated medical image dataset for the development and evaluation of segmentation algorithms](https://drive.google.com/drive/folders/1HqEgzS8BV2c7xYNrZdEAnrHk7osJJ--2)
+5. [A large annotated medical image dataset for the development and evaluation of segmentation algorithms](https://drive.google.com/drive/folders/1HqEgzS8BV2c7xYNrZdEAnrHk7osJJ--2) Label unbalanced with large background, medium pancreas, and small tumor structures, 420 3D CT Scans
 
 
 
