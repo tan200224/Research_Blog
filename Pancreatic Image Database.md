@@ -26,6 +26,9 @@
 
 [AI Applications in Medical Imaging Segmentation](https://youtu.be/ryUCJHk2ckU?si=2LbeIxvmWohfSxnY)
 
+# Resources
+[MONAI](https://monai.io/started.html)
+
 # Question
 
 What do annotation and labels mean for Machine Learning? 
