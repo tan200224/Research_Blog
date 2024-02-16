@@ -24,6 +24,8 @@
 
 [Create Infinite Medical Imaging Data with Generative AI](https://youtu.be/YHTSdd8-bnc?si=2s2ncxpQwdmnxG7F)
 
+[AI Applications in Medical Imaging Segmentation](https://youtu.be/ryUCJHk2ckU?si=2LbeIxvmWohfSxnY)
+
 # Question
 
 What do annotation and labels mean for Machine Learning? 
