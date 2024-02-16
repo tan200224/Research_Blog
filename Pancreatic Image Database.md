@@ -16,4 +16,4 @@
 
 [Pancreatic Cancer Detection on CT Scans with Deep Learning: A Nationwide Population-based Study](https://pubs.rsna.org/doi/10.1148/radiol.220152)
 
-[A large annotated medical image dataset for the development and evaluation of segmentation algorithms](file:///G:/My%20Drive/Education/Elon/Lumen/Reference/A_large_annotated_medical_image_dataset_for_the_de.pdf)
+[A large annotated medical image dataset for the development and evaluation of segmentation algorithms]([file:///G:/My%20Drive/Education/Elon/Lumen/Reference/A_large_annotated_medical_image_dataset_for_the_de.pdf](https://arxiv.org/pdf/1902.09063.pdf)https://arxiv.org/pdf/1902.09063.pdf)
