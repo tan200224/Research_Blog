@@ -17,3 +17,7 @@
 3. [Pancreatic Cancer Detection on CT Scans with Deep Learning: A Nationwide Population-based Study](https://pubs.rsna.org/doi/10.1148/radiol.220152)
 
 4. [A large annotated medical image dataset for the development and evaluation of segmentation algorithms](https://arxiv.org/abs/1902.09063)
+
+
+# Tutorial
+[PyTorch and Monai for AI Healthcare Imaging - Python Machine Learning Course](https://youtu.be/M3ZWfamWrBM?si=Jb128JhHg0UcZ8HE)
