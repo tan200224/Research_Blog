@@ -22,6 +22,8 @@
 
 4. [A large annotated medical image dataset for the development and evaluation of segmentation algorithms](https://arxiv.org/abs/1902.09063)
 
+5. [The Medical Segmentation Decathlon](https://www.nature.com/articles/s41467-022-30695-9)
+
 
 # Tutorial
 1. [PyTorch and Monai for AI Healthcare Imaging - Python Machine Learning Course](https://youtu.be/M3ZWfamWrBM?si=Jb128JhHg0UcZ8HE)
