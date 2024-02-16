@@ -24,11 +24,11 @@
 
 
 # Tutorial
-[PyTorch and Monai for AI Healthcare Imaging - Python Machine Learning Course](https://youtu.be/M3ZWfamWrBM?si=Jb128JhHg0UcZ8HE)
+1. [PyTorch and Monai for AI Healthcare Imaging - Python Machine Learning Course](https://youtu.be/M3ZWfamWrBM?si=Jb128JhHg0UcZ8HE)
 
-[Create Infinite Medical Imaging Data with Generative AI](https://youtu.be/YHTSdd8-bnc?si=2s2ncxpQwdmnxG7F)
+2. [Create Infinite Medical Imaging Data with Generative AI](https://youtu.be/YHTSdd8-bnc?si=2s2ncxpQwdmnxG7F)
 
-[AI Applications in Medical Imaging Segmentation](https://youtu.be/ryUCJHk2ckU?si=2LbeIxvmWohfSxnY)
+3. [AI Applications in Medical Imaging Segmentation](https://youtu.be/ryUCJHk2ckU?si=2LbeIxvmWohfSxnY)
 
 # Resources
 [MONAI](https://monai.io/started.html)
