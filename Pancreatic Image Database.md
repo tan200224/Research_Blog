@@ -34,7 +34,9 @@
 
 # Resources
 [MONAI](https://monai.io/started.html)
+
 [CUDA](https://developer.nvidia.com/cuda-downloads)
+
 [cuDNN](https://developer.nvidia.com/cudnn)
 
 # Question
