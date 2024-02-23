@@ -33,11 +33,11 @@
 3. [AI Applications in Medical Imaging Segmentation](https://youtu.be/ryUCJHk2ckU?si=2LbeIxvmWohfSxnY)
 
 # Resources
-[MONAI](https://monai.io/started.html)
+1. [MONAI](https://monai.io/started.html)
 
-[CUDA](https://developer.nvidia.com/cuda-downloads)
+2. [CUDA](https://developer.nvidia.com/cuda-downloads)
 
-[cuDNN](https://developer.nvidia.com/cudnn)
+3. [cuDNN](https://developer.nvidia.com/cudnn)
 
 # Question
 
