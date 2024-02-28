@@ -55,7 +55,9 @@ Image classification vs. Object Detection vs. Image Segmentation
 
 
 # Blog
-1. [Data Covert & Preprocess](DataCovert&Preprocess.md)
+1. [OpenCV]()
+2. [CNN]()
+3. [Data Covert & Preprocess](DataCovert&Preprocess.md)
 
 
 
