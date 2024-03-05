@@ -1,6 +1,6 @@
 # Coverting Data between DICOM and NIFTI, and Create Groups of Slices
 
-## The Library we use
+## The Library I use
 
     import pandas as pd
     import numpy as np
@@ -38,6 +38,20 @@
                 shutil.move(file, output_path)
                 print("moved")
 
+## Verify the number of dicom files in training and label are the same
+
+    input_path_labels = 'D:/LumenResearchDataBase/Task07_Pancreas/Task07_Pancreas/nifti_groups/nifti_group90/labels/*'
+    
+    for label in glob(input_path_labels):
+    
+        nifti_file = nib.load(label)
+        fdata =  nifti_file.get_fdata()
+        np_unique = np.unique(fdata)
+    
+        if len(np.unique(fdata)) <= 1:
+            print(label)
+
+
 ## Convert the dicom files into nifties
 
     in_path_training = r'D:\LumenResearchDataBase\Task07_Pancreas\Task07_Pancreas\dicom_files\training\*'
@@ -58,15 +72,30 @@
         patient_name = os.path.basename(os.path.normpath(patient))
         dicom2nifti.dicom_series_to_nifti(patient, os.path.join(out_path_labels, patient_name + ".nii.gz"))
 
+## Find empty (Find out the empty labels, where there is no pancreas in the labels)
+
+    input_path_labels = 'D:/LumenResearchDataBase/Task07_Pancreas/Task07_Pancreas/nifti_groups/nifti_group90/labels/*'
+    
+    for label in glob(input_path_labels):
+    
+        nifti_file = nib.load(label)
+        fdata =  nifti_file.get_fdata()
+        np_unique = np.unique(fdata)
+    
+        if len(np.unique(fdata)) <= 1:
+            print(label)
 
 ## Bug
 
 '<' not supported between instances of 'NoneType' and 'NoneType'
 
+## Resolve
+
+The bug is caused due to when I converting the nifti file to dicom. I was using the software that is provided from the Youtube Tutorial. The software someone mess up the index, so when the function is sorting the file by index number, it cuased an error: '<' not supported between instances of 'NoneType' and 'NoneType'. To resolve this problem, I manually used 3D Slicer to convert the nifti file to dicom one by one. 
 
 
-## PreProocessing(Transform and Load the data)
 
+# PreProocessing(Transform and Load the data)
 
 ## The library used
 
