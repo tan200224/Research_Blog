@@ -39,7 +39,7 @@
 
 3. [cuDNN](https://developer.nvidia.com/cudnn)
 
-4. [State-of-art model for medical imaging](https://paperswithcode.com/sota/medical-image-segmentation-on-kvasir-seg)
+4. [State-of-Art Model for Medical Imaging](https://paperswithcode.com/sota/medical-image-segmentation-on-kvasir-seg)
 
 # Question
 
