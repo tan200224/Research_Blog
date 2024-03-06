@@ -1,3 +1,6 @@
+# Research Proposal
+[Improving Early Diagnosis of Pancreatic Cancer with Synthetic Data](https://drive.google.com/file/d/1-e8EIY0hvOhud3bIM0zMkr6vkCG-FE8k/view?usp=sharing)
+
 # Pancreatic Image Modality Database
 
 1. [Kaggle Pancreas CT](https://www.kaggle.com/datasets/salihayesilyurt/pancreas-ct)
