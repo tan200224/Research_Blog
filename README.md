@@ -57,7 +57,7 @@ Image classification vs. Object Detection vs. Image Segmentation
 2. MICCAI
 3. CVPR
 4. ICIP
-5. (CCSC](http://ccscse.org/conference.php?year=38th)
+5. [CCSC](http://ccscse.org/conference.php?year=38th)
 
 
 # Blog
