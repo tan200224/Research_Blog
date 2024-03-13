@@ -27,6 +27,8 @@
 
 5. [The Medical Segmentation Decathlon](https://www.nature.com/articles/s41467-022-30695-9)
 
+6. [Early Detection and Localization of Pancreatic Cancer by Label-Free Tumor Synthesis](https://arxiv.org/abs/2308.03008)
+
 
 # Tutorial
 1. [PyTorch and Monai for AI Healthcare Imaging - Python Machine Learning Course](https://youtu.be/M3ZWfamWrBM?si=Jb128JhHg0UcZ8HE)
