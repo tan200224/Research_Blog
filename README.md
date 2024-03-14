@@ -66,15 +66,9 @@ Image classification vs. Object Detection vs. Image Segmentation
 1. [OpenCV](OpenCV)
 2. [CNN](CNN)
 3. [Data Covert & Preprocess](DataCovert&Preprocess.md)
+4. [Training]()
 
 
-<img width="1117" alt="image" src="https://github.com/tan200224/Research_Blog/assets/68765056/61ce81e6-f21d-4998-9571-eb624a431c88">
-
-<img width="1117" alt="image" src="https://github.com/tan200224/Research_Blog/assets/68765056/dfe4c4bf-7ea0-499a-ba4b-4331a5b51e29">
-
-<img width="1084" alt="image" src="https://github.com/tan200224/Research_Blog/assets/68765056/1ae86f45-df97-48d1-b58a-4342fd093e2a">
-
-<img width="1082" alt="image" src="https://github.com/tan200224/Research_Blog/assets/68765056/65fc41be-af6e-4d3a-b090-df67c7164a48">
 
 
 
