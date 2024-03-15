@@ -56,6 +56,12 @@ Which way is better, Jupyter Notebook or VScode?
 Advantages of using .py and .ipynb?
 
 
+### Additional
+More data. As we looked over the dataset with 82 scans the first time, we were unable to find the labeled data. However, I was able to find them this time. However, they are kinda a little bit different from the dataset that we are currently using. I made a data viewer to look at the data. There is a sample of data for each of the dataset.
+<img width="739" alt="image" src="https://github.com/tan200224/Research_Blog/assets/68765056/af967483-0fa7-4a55-b813-00eb60d2a315">
+
+<img width="735" alt="image" src="https://github.com/tan200224/Research_Blog/assets/68765056/e9576d2e-1a09-4a09-a5aa-ca9aea147195">
+
 ## Result for groups of 90
 ____________________
 
@@ -97,7 +103,7 @@ best mean dice: 0.9532 at epoch: 570
 
 train completed, best metric: 0.9532 at epoch: 570
 
-<img width="600" alt="image" src="https://github.com/tan200224/Research_Blog/assets/68765056/634ebd56-0955-4704-9a70-6e23f86af675">
+<img width="724" alt="image" src="https://github.com/tan200224/Research_Blog/assets/68765056/92f61522-c476-4439-997e-7d2fd6212030">
 
 <img width="490" alt="image" src="https://github.com/tan200224/Research_Blog/assets/68765056/a065627e-39d8-4fbf-b5e9-de5d51fe3868">
 
