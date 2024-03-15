@@ -68,12 +68,19 @@ Advantages of using .py and .ipynb?
 
 ## Result for group of 64
 ____________________
+
 Epoch_loss: 0.0067
+
 Epoch_metric:  0.9933
+
 test_loss_epoch: 0.0560
+
 test_dice_epoch: 0.9440
+
 current epoch: 600 current mean dice: 0.9930
+
 best mean dice: 0.9532 at epoch: 570
+
 train completed, best metric: 0.9532 at epoch: 570
 
 <img width="494" alt="image" src="https://github.com/tan200224/Research_Blog/assets/68765056/634ebd56-0955-4704-9a70-6e23f86af675">
