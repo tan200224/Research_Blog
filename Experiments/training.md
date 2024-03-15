@@ -56,6 +56,7 @@ As for the optimizer, I used Adam.
 2. Advantages of using .py and .ipynb?
 3. As I experiment and train the data, one finding I have is that the model is very sensitive to the change in the intensity. the model is tested on a dataset that is transformed with different intensities the result will be affected.
 4. Is there a way to do data augmentation so the performance of the model will be invariant to the change in intensity, transform, rotation, etc?
+5. Is the more epoches the better? When should I stop training?
 
 ### Additional
 More data. As we looked over the dataset with 82 scans the first time, we were unable to find the labeled data. However, I was able to find them this time. However, they are kinda a little bit different from the dataset that we are currently using. I made a data viewer to look at the data. There is a sample of data for each of the dataset.
