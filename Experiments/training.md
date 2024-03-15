@@ -46,7 +46,7 @@ As for the optimizer, I used Adam.
 11. At the end of each epoch, we will take the average loss and dice metric
 12. I also did the same thing for our testing data, just to create a loss and metric group for testing. the idea is very similar just stores the value of loss and metric
 
-## Result for groups of 90
+## Result for groups of 91
 ____________________
 Epoch_loss: 0.0119
 
