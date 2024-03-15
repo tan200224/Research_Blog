@@ -23,7 +23,6 @@ The letter d at the end of each transformation means I'm doing it with a diction
 6. CropForegroundd # It will crop the area is have nothing on it. It also has a source key, which should be set to be the training image instead of labels because I want to make sure we only crop the information from the image, not from the label
 7. Resized # It is a optional process, however, if you used CropForegroundd, then you must resize the image becuase the crop is random, every image might have differnent size after crop. Therefore, you want to make sure they are the same size
 8. ToTensor # It will convert the data into Tensor, which is needed to be used for training.
-9. How should I change the learning time?
 
 #### Load the data
 Once I have the dictionary that contains images and labels and have the transform. I created my training data set with the dictionary and the transform. 
@@ -102,6 +101,8 @@ train completed, best metric: 0.9532 at epoch: 570
 3. As I experiment and train the data, one finding I have is that the model is very sensitive to the change in the intensity. the model is tested on a dataset that is transformed with different intensities the result will be affected.
 4. Is there a way to do data augmentation so the performance of the model will be invariant to the change in intensity, transform, rotation, etc?
 5. Is the more epoches the better? When should I stop training?
+6. How should I change the learning rate?
+
 
 ### Additional
 More data. As we looked over the dataset with 82 scans the first time, we were unable to find the labeled data. However, I was able to find them this time. However, they are kinda a little bit different from the dataset that we are currently using. I made a data viewer to look at the data. Here is a sample of data for each of the dataset.
