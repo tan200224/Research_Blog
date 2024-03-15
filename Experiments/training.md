@@ -102,6 +102,7 @@ train completed, best metric: 0.9532 at epoch: 570
 4. Is there a way to do data augmentation so the performance of the model will be invariant to the change in intensity, transform, rotation, etc?
 5. Is the more epoches the better? When should I stop training?
 6. How should I change the learning rate?
+7. What if we do edge detection on it?
 
 
 ### Additional
