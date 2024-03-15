@@ -97,12 +97,19 @@ train completed, best metric: 0.9532 at epoch: 570
 
 ### Question
 1. Which way is better, Jupyter Notebook or VScode?
+   - Personal preference.
 2. What are the advantages of using .py and .ipynb?
+   - Using .py, you have to compile it without any additional work, some cases where, you want to run your code on a supercomputer. You might want it to be a .py file because .ipynb is more like a script and more interactive. you need to run all the cells. However, .ipynb file allows you to save the running progress. It's not like .py when it crashes; you need to restart everything again. 
 3. As I experiment and train the data, one finding I have is that the model is very sensitive to the change in the intensity. the model is tested on a dataset that is transformed with different intensities the result will be affected.
+   - Usually, if we want to train or use our model to work on specific data, we need to transform them. Otherwise, it may not work. Therefore, it is okay, will the intensity is variant, we can transform those data. But it can be something to try on and see if it works well with different intensities. 
 4. Is there a way to do data augmentation so the performance of the model will be invariant to the change in intensity, transform, rotation, etc?
-5. Is the more epoches the better? When should I stop training?
+   - There is
+5. Is the more epochs, the better? When should I stop training?
+    - This will depend on the training loss and testing loss. If it already converges, it is not too necessary to keep training it because it will get overfitted.
 6. How should I change the learning rate?
+    - The learning rate will also depend on how the test and training loss looks like. If it is decreasing at a linear rate, it means the value is too low. it might stuck at a local minimum. if it is too large, it might not be able to find a minimum.
 7. What if we do edge detection on it?
+    - The CNN behind the since will do edge detection. to find the feature of edges. 
 
 
 ### Additional
