@@ -46,28 +46,8 @@ As for the optimizer, I used Adam.
 11. At the end of each epoch, we will take the average loss and dice metric
 12. I also did the same thing for our testing data, just to create a loss and metric group for testing. the idea is very similar just stores the value of loss and metric
 
-
-### Some Bug that I counter
-1. The output of the loss function is not Numpy, but tensor. When I store them in to a file. It gave an error for trying to create a spy file. It is fixed by just doing loss.item().
-2. The value for spatial_size. When I was trying with the groups of 91. I try to do [128, 128, 91 or 90]. It caused an error. It only take 16, 32, 64, etc.
-
-### Question
-1. Which way is better, Jupyter Notebook or VScode?
-2. Advantages of using .py and .ipynb?
-3. As I experiment and train the data, one finding I have is that the model is very sensitive to the change in the intensity. the model is tested on a dataset that is transformed with different intensities the result will be affected.
-4. Is there a way to do data augmentation so the performance of the model will be invariant to the change in intensity, transform, rotation, etc?
-5. Is the more epoches the better? When should I stop training?
-
-### Additional
-More data. As we looked over the dataset with 82 scans the first time, we were unable to find the labeled data. However, I was able to find them this time. However, they are kinda a little bit different from the dataset that we are currently using. I made a data viewer to look at the data. There is a sample of data for each of the dataset.
-
-<img width="723" alt="image" src="https://github.com/tan200224/Research_Blog/assets/68765056/3f8639ec-ae27-4159-b7e7-54d962325929">
-
-<img width="735" alt="image" src="https://github.com/tan200224/Research_Blog/assets/68765056/e9576d2e-1a09-4a09-a5aa-ca9aea147195">
-
 ## Result for groups of 90
 ____________________
-
 Epoch_loss: 0.0119
 
 Epoch_metric:  0.9881
@@ -91,7 +71,6 @@ train completed, best metric: 0.9754 at epoch: 589
 
 ## Result for group of 64
 ____________________
-
 Epoch_loss: 0.0067
 
 Epoch_metric:  0.9933
@@ -106,12 +85,29 @@ best mean dice: 0.9532 at epoch: 570
 
 train completed, best metric: 0.9532 at epoch: 570
 
-<img width="736" alt="image" src="https://github.com/tan200224/Research_Blog/assets/68765056/1acfa08e-047f-4a6f-b8bf-a1014590316a">
+<img width="917" alt="image" src="https://github.com/tan200224/Research_Blog/assets/68765056/4e7c62ed-8b57-46b6-a10f-21cbfe385064">
 
 <img width="490" alt="image" src="https://github.com/tan200224/Research_Blog/assets/68765056/a065627e-39d8-4fbf-b5e9-de5d51fe3868">
 
 <img width="490" alt="image" src="https://github.com/tan200224/Research_Blog/assets/68765056/1a954b6a-0195-411b-a027-a3bf679f0f1f">
 
+### Some Bug that I counter
+1. The output of the loss function is not Numpy, but tensor. When I store them in to a file. It gave an error for trying to create a spy file. It is fixed by just doing loss.item().
+2. The value for spatial_size. When I was trying with the groups of 91. I try to do [128, 128, 91 or 90]. It caused an error. It only take 16, 32, 64, etc.
+
+### Question
+1. Which way is better, Jupyter Notebook or VScode?
+2. What are the advantages of using .py and .ipynb?
+3. As I experiment and train the data, one finding I have is that the model is very sensitive to the change in the intensity. the model is tested on a dataset that is transformed with different intensities the result will be affected.
+4. Is there a way to do data augmentation so the performance of the model will be invariant to the change in intensity, transform, rotation, etc?
+5. Is the more epoches the better? When should I stop training?
+
+### Additional
+More data. As we looked over the dataset with 82 scans the first time, we were unable to find the labeled data. However, I was able to find them this time. However, they are kinda a little bit different from the dataset that we are currently using. I made a data viewer to look at the data. Here is a sample of data for each of the dataset.
+
+<img width="723" alt="image" src="https://github.com/tan200224/Research_Blog/assets/68765056/3f8639ec-ae27-4159-b7e7-54d962325929">
+
+<img width="735" alt="image" src="https://github.com/tan200224/Research_Blog/assets/68765056/e9576d2e-1a09-4a09-a5aa-ca9aea147195">
 
 
 
