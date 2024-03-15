@@ -11,7 +11,7 @@ For data processing, I created 91 slices and 64 slices of Dicom files for both t
 Then, I converted them into Nifti files (now, each Nifti has the same volume, a group of 91 or 64). 
 Finally, I checked the Nifti labels. to remove the folders where labels were empty(there was only 0 in the mask). 
 
-### 2. Transform the data
+#### 2. Transform the data
 There are a lot of ways to transform pancreatic CT scans. 
 In my case, I have 159 files for groups of 90 and 257 for groups of 64. I used Monai to compose the data. 
 The letter d at the end of each transformation means I'm doing it with a dictionary.
