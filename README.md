@@ -29,6 +29,8 @@
 
 6. [Early Detection and Localization of Pancreatic Cancer by Label-Free Tumor Synthesis](https://arxiv.org/abs/2308.03008)
 
+7. [Semantic segmentation of pancreatic medical images by using convolutional neural network](https://www.sciencedirect.com/science/article/pii/S1746809421010557)
+
 
 # Tutorial
 1. [PyTorch and Monai for AI Healthcare Imaging - Python Machine Learning Course](https://youtu.be/M3ZWfamWrBM?si=Jb128JhHg0UcZ8HE)
