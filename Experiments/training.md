@@ -23,6 +23,7 @@ The letter d at the end of each transformation means I'm doing it with a diction
 6. CropForegroundd # It will crop the area is have nothing on it. It also has a source key, which should be set to be the training image instead of labels because I want to make sure we only crop the information from the image, not from the label
 7. Resized # It is a optional process, however, if you used CropForegroundd, then you must resize the image becuase the crop is random, every image might have differnent size after crop. Therefore, you want to make sure they are the same size
 8. ToTensor # It will convert the data into Tensor, which is needed to be used for training.
+9. How should I change the learning time?
 
 #### Load the data
 Once I have the dictionary that contains images and labels and have the transform. I created my training data set with the dictionary and the transform. 
