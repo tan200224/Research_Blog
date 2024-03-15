@@ -57,13 +57,27 @@ Advantages of using .py and .ipynb?
 
 
 ## Result for groups of 90
-<img width="1117" alt="image" src="https://github.com/tan200224/Research_Blog/assets/68765056/61ce81e6-f21d-4998-9571-eb624a431c88">
+____________________
 
-<img width="1117" alt="image" src="https://github.com/tan200224/Research_Blog/assets/68765056/dfe4c4bf-7ea0-499a-ba4b-4331a5b51e29">
+Epoch_loss: 0.0119
 
-<img width="1084" alt="image" src="https://github.com/tan200224/Research_Blog/assets/68765056/1ae86f45-df97-48d1-b58a-4342fd093e2a">
+Epoch_metric:  0.9881
 
-<img width="1082" alt="image" src="https://github.com/tan200224/Research_Blog/assets/68765056/65fc41be-af6e-4d3a-b090-df67c7164a48">
+test_loss_epoch: 0.0282
+
+test_dice_epoch: 0.9718
+
+current epoch: 600 current mean dice: 0.9891
+
+best mean dice: 0.9754 at epoch: 589
+
+train completed, best metric: 0.9754 at epoch: 589
+
+<img width="822" alt="image" src="https://github.com/tan200224/Research_Blog/assets/68765056/2de4612e-e586-4c0f-9919-ffb37decdf08">
+
+<img width="490" alt="image" src="https://github.com/tan200224/Research_Blog/assets/68765056/c1dcbaad-8143-4a78-a533-d24effe41dac">
+
+<img width="490" alt="image" src="https://github.com/tan200224/Research_Blog/assets/68765056/9acf59f4-2e0a-43cc-b902-1dd7127bab1c">
 
 
 ## Result for group of 64
@@ -85,9 +99,9 @@ train completed, best metric: 0.9532 at epoch: 570
 
 <img width="600" alt="image" src="https://github.com/tan200224/Research_Blog/assets/68765056/634ebd56-0955-4704-9a70-6e23f86af675">
 
-<img width="488" alt="image" src="https://github.com/tan200224/Research_Blog/assets/68765056/a065627e-39d8-4fbf-b5e9-de5d51fe3868">
+<img width="490" alt="image" src="https://github.com/tan200224/Research_Blog/assets/68765056/a065627e-39d8-4fbf-b5e9-de5d51fe3868">
 
-<img width="491" alt="image" src="https://github.com/tan200224/Research_Blog/assets/68765056/1a954b6a-0195-411b-a027-a3bf679f0f1f">
+<img width="490" alt="image" src="https://github.com/tan200224/Research_Blog/assets/68765056/1a954b6a-0195-411b-a027-a3bf679f0f1f">
 
 
 
