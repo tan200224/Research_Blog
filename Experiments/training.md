@@ -48,7 +48,7 @@ As for the optimizer, I used Adam.
 
 
 ### Some Bug that I counter
-1. 1. The output of the loss function is not Numpy, but tensor. When I store them in to a file. It gave an error for trying to create a spy file. It is fixed by just doing loss.item().
+1. The output of the loss function is not Numpy, but tensor. When I store them in to a file. It gave an error for trying to create a spy file. It is fixed by just doing loss.item().
 2. The value for spatial_size. When I was trying with the groups of 91. I try to do [128, 128, 91 or 90]. It caused an error. It only take 16, 32, 64, etc.
 
 ### Question
