@@ -66,7 +66,8 @@ Image classification vs. Object Detection vs. Image Segmentation
 4. [Training](Experiments/training.md)
 
 
-
+What is the different between a summit and a conference?
+https://genaisummit.ai/#/
 
 
     
