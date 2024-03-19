@@ -72,11 +72,17 @@ https://genaisummit.ai/#/
 epoch 600/600
 ____________________
 Epoch_loss: 0.0056
+
 Epoch_metric:  0.9944
+
 test_loss_epoch: 0.2967
+
 test_dice_epoch: 0.7033
+
 current epoch: 600 current mean dice: 0.6396
+
 best mean dice: 0.7424 at epoch: 57
+
 train completed, best metric: 0.7424 at epoch: 57
 
 <img width="770" alt="image" src="https://github.com/tan200224/Research_Blog/assets/68765056/70e68652-c4ce-46c1-bad7-fa8292ccbb91">
