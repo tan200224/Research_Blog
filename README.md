@@ -71,4 +71,5 @@ https://genaisummit.ai/#/
 
 <img width="770" alt="image" src="https://github.com/tan200224/Research_Blog/assets/68765056/70e68652-c4ce-46c1-bad7-fa8292ccbb91">
 
-    
+<img width="372" alt="image" src="https://github.com/tan200224/Research_Blog/assets/68765056/caf29e4a-ae42-49c5-82af-15f254513c5a">
+
