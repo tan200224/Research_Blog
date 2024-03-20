@@ -177,3 +177,4 @@ train completed, best metric: 0.7295 at epoch: 29
 
 <img width="825" alt="image" src="https://github.com/tan200224/Research_Blog/assets/68765056/6e080c30-4160-4e02-858c-7f058f1f08d2">
 
+Should We register for CVPR?
