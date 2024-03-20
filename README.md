@@ -89,3 +89,91 @@ train completed, best metric: 0.7424 at epoch: 57
 
 <img width="372" alt="image" src="https://github.com/tan200224/Research_Blog/assets/68765056/caf29e4a-ae42-49c5-82af-15f254513c5a">
 
+epoch 600/600
+____________________
+Epoch_loss: 0.0056
+
+Epoch_metric:  0.9944
+
+test_loss_epoch: 0.2967
+
+test_dice_epoch: 0.7033
+
+current epoch: 600 current mean dice: 0.6396
+
+best mean dice: 0.7424 at epoch: 57
+
+train completed, best metric: 0.7424 at epoch: 57
+
+<img width="927" alt="image" src="https://github.com/tan200224/Research_Blog/assets/68765056/1cca5342-1dfb-4a51-9565-17920d43cfc0">
+
+<img width="371" alt="image" src="https://github.com/tan200224/Research_Blog/assets/68765056/38fb8981-ceaa-44ee-bcf5-3b54ffeefd43">
+
+Epoch_loss: 0.0022
+
+Epoch_metric:  0.9978
+
+test_loss_epoch: 0.3125
+
+test_dice_epoch: 0.6875
+
+current epoch: 600 current mean dice: 0.7625
+
+best mean dice: 0.7421 at epoch: 25
+
+train completed, best metric: 0.7421 at epoch: 25
+
+<img width="652" alt="image" src="https://github.com/tan200224/Research_Blog/assets/68765056/0cee0d66-fd12-4dc7-9d20-cf0dfd1cf12e">
+
+
+<img width="560" alt="image" src="https://github.com/tan200224/Research_Blog/assets/68765056/98889315-eba2-4117-b0b9-60efcc5ec315">
+
+Epoch_loss: 0.0017
+
+Epoch_metric:  0.9983
+
+test_loss_epoch: 0.3118
+
+test_dice_epoch: 0.6882
+
+current epoch: 600 current mean dice: 0.7259
+
+best mean dice: 0.7256 at epoch: 24
+
+train completed, best metric: 0.7256 at epoch: 24
+
+<img width="646" alt="image" src="https://github.com/tan200224/Research_Blog/assets/68765056/c9bd2f6d-20e2-4cf5-8b52-82ed10f50f0c">
+
+
+Epoch_loss: 0.0036
+
+Epoch_metric:  0.9964
+
+test_loss_epoch: 0.3139
+
+test_dice_epoch: 0.6861
+
+current epoch: 600 current mean dice: 0.7329
+
+best mean dice: 0.7362 at epoch: 31
+
+train completed, best metric: 0.7362 at epoch: 31
+
+<img width="652" alt="image" src="https://github.com/tan200224/Research_Blog/assets/68765056/76dca5f2-f2c2-4e8e-bd55-680dbddb610e">
+
+Epoch_loss: 0.0025
+
+Epoch_metric:  0.9975
+
+test_loss_epoch: 0.3064
+
+test_dice_epoch: 0.6936
+
+current epoch: 600 current mean dice: 0.7656
+
+best mean dice: 0.7295 at epoch: 29
+
+train completed, best metric: 0.7295 at epoch: 29
+
+<img width="825" alt="image" src="https://github.com/tan200224/Research_Blog/assets/68765056/6e080c30-4160-4e02-858c-7f058f1f08d2">
+
