@@ -64,5 +64,6 @@ Image classification vs. Object Detection vs. Image Segmentation
 2. [CNN](CNN)
 3. [Data Covert & Preprocess](DataCovert&Preprocess.md)
 4. [Training](Experiments/training.md)
+5. [Four-Fold](Experiments/FourFold64.md)
 
 
