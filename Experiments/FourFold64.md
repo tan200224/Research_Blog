@@ -161,7 +161,7 @@ Those are the ways that I can think of so far to improve the performance. I thin
 Also, something that I noticed is the best metric is always found when the epochs are less than 100. Does that mean the model also learned well enough with 100 epochs? 
 
 # Question
-Issues with the testing loss
+Issues with the test loss
 
 Should We register for CVPR?
 
