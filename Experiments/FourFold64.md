@@ -167,9 +167,10 @@ Should We register for CVPR?
 
 What is the difference between a summit and a conference?
 https://genaisummit.ai/#/
+  - Summit is more a business side of things; people can look for venture capital. People will present more innovative business ideas. On the other hand conference is more academic. 
 
-Why is computer vision based on RBG? There are more colors in the world than even humans can't see. Is there are people working on seeing more color to get more information? 
-
+Why is a computer vision based on RBG? There are more colors in the world than even humans can't see. Is there are people working on seeing more color to get more information? 
+  - Computer vision can work more than just RBG. In the camera, when we capture things. There will be sensors that can capture how much light reflects on the red sensor, etc. We can also add more sensors to detect different things that might reflect from the light. Even in medical images, what we are working on is not RBG. 
 
 
 
