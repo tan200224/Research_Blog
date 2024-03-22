@@ -158,6 +158,7 @@ After I experienced the four-fold method, I got an average accuracy of around 0.
 
 Those are the ways that I can think of so far to improve the performance. I think increasing the number of epochs won't help much. The model might tend to be overfitted with 600 epochs. since the accuracy is already around 99%. 
 
+Also, sometimes I notice that the training is the best metric always found when the epochs are less than 100. Does that mean the model also learned well enough with 100 epochs? 
 
 # Question
 Issues with the testing loss
