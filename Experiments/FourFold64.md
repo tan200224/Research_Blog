@@ -149,6 +149,16 @@ Experiment 4: 0.7295 accuracy
 
 Average accuracy: (0.7421 + 0.7256 + 0.7362 + 0.7295) / 4 = 0.73335
 
+
+# Reflection
+After I experienced the four-fold method, I got an average accuracy of around 0.73%, which is not great. Therefore, I think it can be improved in different ways
+1. Get more data
+2. Try with a different model
+3. Try different transform methods (How to change the intensity so the pancreas shows up more)
+
+Those are the ways that I can think of so far to improve the performance. I think increasing the number of epochs won't help much. The model might tend to be overfitted with 600 epochs. since the accuracy is already around 99%. 
+
+
 # Question
 Issues with the testing loss
 
@@ -159,13 +169,6 @@ https://genaisummit.ai/#/
 
 Why is computer vision based on RBG? There are more colors in the world than even humans can't see. Is there are people working on seeing more color to get more information? 
 
-# Reflection
-After I experienced the four-fold method, I got an average accuracy of around 0.73%, which is not great. Therefore, I think it can be improved in different ways
-1. Get more data
-2. Try with a different model
-3. Try different transform methods (How to change the intensity so the pancreas shows up more)
-
-Those are the ways that I can think of so far to improve the performance. I think increasing the number of epochs won't help much. The model might tend to be overfitted with 600 epochs. since the accuracy is already around 99%. 
 
 
 
