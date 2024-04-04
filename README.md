@@ -66,4 +66,8 @@ Image classification vs. Object Detection vs. Image Segmentation
 4. [Training](Experiments/training.md)
 5. [Four-Fold](Experiments/FourFold64.md)
 
-
+# updates:
+- Classes for next semester
+- President
+- fellowship (3 fellowships, Standford, Oxford university)
+- Coaching position
