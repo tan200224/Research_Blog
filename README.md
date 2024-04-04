@@ -71,3 +71,6 @@ Image classification vs. Object Detection vs. Image Segmentation
 - President
 - fellowship (3 fellowships, Standford, Oxford university)
 - Coaching position
+
+
+<img width="1574" alt="image" src="https://github.com/tan200224/Research_Blog/assets/68765056/1b109ee0-e600-4840-9c59-f430a9e2db4c">
