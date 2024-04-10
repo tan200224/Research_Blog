@@ -74,3 +74,5 @@ Image classification vs. Object Detection vs. Image Segmentation
 
 
 -50 - 200
+
+What is alignment in AI?
