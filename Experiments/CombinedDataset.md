@@ -53,3 +53,7 @@ train completed, best metric: 0.8716 at epoch: 24
 <img width="374" alt="image" src="https://github.com/tan200224/Research_Blog/assets/68765056/0e5bb6af-bce1-4cb6-ab2c-6463ac7b81ae">
 
 <img width="378" alt="image" src="https://github.com/tan200224/Research_Blog/assets/68765056/e1ce0bc5-fb22-420c-8c54-f23d2068fb35">
+
+# Result 
+Even though there are some differences in the dataset, the accuracy of the model is still improved. The model is a little bit overfit. 
+
