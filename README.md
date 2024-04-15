@@ -66,36 +66,8 @@ Image classification vs. Object Detection vs. Image Segmentation
 4. [Training](Experiments/training.md)
 5. [Four-Fold](Experiments/FourFold64.md)
 
-# updates:
-
-<img width="1574" alt="image" src="https://github.com/tan200224/Research_Blog/assets/68765056/1b109ee0-e600-4840-9c59-f430a9e2db4c">
-
-<img width="586" alt="image" src="https://github.com/tan200224/Research_Blog/assets/68765056/5b8148b7-fb0d-4e2b-89cb-3f4ed80bff9d">
 
 
--50 - 200
-
-What is alignment in AI?
-
-# Combined Dataset
-
-      train_data, test_data = perpare(data_dir, (1.5, 1.5, 1.0), -50, 200, [128, 128, 64], True)
-      optimizer = torch.optim.Adam(model.parameters(), 1e-4, weight_decay=1e-3, amsgrad=True)
-
-Epoch_loss: 0.0178
-Epoch_metric:  0.9822
-test_loss_epoch: 0.1635
-test_dice_epoch: 0.8365
-current epoch: 250 current mean dice: 0.9166
-best mean dice: 0.8716 at epoch: 24
-train completed, best metric: 0.8716 at epoch: 24
-
-<img width="758" alt="image" src="https://github.com/tan200224/Research_Blog/assets/68765056/8ce103f8-3e32-4796-8925-49fbfb46876c">
-
-
-<img width="374" alt="image" src="https://github.com/tan200224/Research_Blog/assets/68765056/0e5bb6af-bce1-4cb6-ab2c-6463ac7b81ae">
-
-<img width="378" alt="image" src="https://github.com/tan200224/Research_Blog/assets/68765056/e1ce0bc5-fb22-420c-8c54-f23d2068fb35">
 
 
 
