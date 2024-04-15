@@ -36,6 +36,8 @@
 
 # Train the model with combined dataset
 
+There are 415 training data and 25 testing data
+
       train_data, test_data = perpare(data_dir, (1.5, 1.5, 1.0), -50, 200, [128, 128, 64], True)
       optimizer = torch.optim.Adam(model.parameters(), 1e-4, weight_decay=1e-3, amsgrad=True)
 
