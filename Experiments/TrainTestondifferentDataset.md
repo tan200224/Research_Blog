@@ -1,5 +1,5 @@
 # Train the model with one dataset, and test the model with differnet dataset
-### Dataset 1:
+### Dataset 1: Dataset with 281 ct scans from 
 
 ### Dataset 2:
 
