@@ -31,6 +31,8 @@
 
 7. [Semantic segmentation of pancreatic medical images by using convolutional neural network](https://www.sciencedirect.com/science/article/pii/S1746809421010557)
 
+8. [AX-Unet: A Deep Learning Framework for Image Segmentation to Assist Pancreatic Tumor Diagnosis](https://www.frontiersin.org/journals/oncology/articles/10.3389/fonc.2022.894970/full)
+
 
 # Tutorial
 1. [PyTorch and Monai for AI Healthcare Imaging - Python Machine Learning Course](https://youtu.be/M3ZWfamWrBM?si=Jb128JhHg0UcZ8HE)
