@@ -35,7 +35,7 @@
 
 9. [Tutorial: Abdominal CT Image Synthesis with Variational Autoencoders using PyTorch](https://medium.com/miccai-educational-initiative/tutorial-abdominal-ct-image-synthesis-with-variational-autoencoders-using-pytorch-933c29bb1c90)
 
-10. [Training a Convolutional Variational Autoencoder on 3D CFD Turbulence Data(https://medium.com/@agrija9/training-a-convolutional-variational-autoencoder-on-3d-cfd-turbulence-data-7df8e207a58f)
+10. [Training a Convolutional Variational Autoencoder on 3D CFD Turbulence Data](https://medium.com/@agrija9/training-a-convolutional-variational-autoencoder-on-3d-cfd-turbulence-data-7df8e207a58f)
 
 
 # Tutorial
