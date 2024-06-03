@@ -33,6 +33,10 @@
 
 8. [AX-Unet: A Deep Learning Framework for Image Segmentation to Assist Pancreatic Tumor Diagnosis](https://www.frontiersin.org/journals/oncology/articles/10.3389/fonc.2022.894970/full)
 
+9. [Tutorial: Abdominal CT Image Synthesis with Variational Autoencoders using PyTorch](https://medium.com/miccai-educational-initiative/tutorial-abdominal-ct-image-synthesis-with-variational-autoencoders-using-pytorch-933c29bb1c90)
+
+10. [Training a Convolutional Variational Autoencoder on 3D CFD Turbulence Data(https://medium.com/@agrija9/training-a-convolutional-variational-autoencoder-on-3d-cfd-turbulence-data-7df8e207a58f)
+
 
 # Tutorial
 1. [PyTorch and Monai for AI Healthcare Imaging - Python Machine Learning Course](https://youtu.be/M3ZWfamWrBM?si=Jb128JhHg0UcZ8HE)
