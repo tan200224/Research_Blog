@@ -1,4 +1,4 @@
-Variational AutoEncoder (VAE)
+## Variational AutoEncoder (VAE)
 
 Variational AutoEncoder is an autoencoder and a generative model with other architecture
 
