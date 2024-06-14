@@ -22,7 +22,6 @@ The model can reconstruct the images better than the first method. The reconstru
 ## The fourth method (3D)
 For this approach, we are not able to get it to work yet. The model since to be more complicated and requires a lot of computation power. We were not even able to train the model due to the error that memory in the GPU was running out. The GPU that was used for this experiment is RTX 4090, which contains 24GB of RAM. 
 
-
 # Challenage
 1. The size of the model and input image can be confusing
 2. The 3D model seem to take a lot of memory from the GPU
