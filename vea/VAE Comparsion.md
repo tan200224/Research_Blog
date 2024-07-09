@@ -30,3 +30,6 @@ For this approach, we are not able to get it to work yet. The model since to be 
 [Training a Convolutional Variational Autoencoder on 3D CFD Turbulence Data](https://medium.com/@agrija9/training-a-convolutional-variational-autoencoder-on-3d-cfd-turbulence-data-7df8e207a58f)
 
 [Tutorial: Abdominal CT Image Synthesis with Variational Autoencoders using PyTorch](https://medium.com/miccai-educational-initiative/tutorial-abdominal-ct-image-synthesis-with-variational-autoencoders-using-pytorch-933c29bb1c90)
+
+
+# 2D VAE with different comparison with different complicity
