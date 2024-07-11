@@ -51,4 +51,5 @@ It seems that the more layers we have in the VAE, the better the result we get. 
 There was a significant improvement, jumping from 32 to 64. 
 However, the result seems like that both 64 and 128 is able to generate some good synthetic CT-scan. This also depends on how far away the data point is from the mu in the latent space. The base 128 model requires a bigger number of alpha * sigma to really be able to see the changes 
 
+![Screenshot 2024-07-11 161435](https://github.com/tan200224/Research_Blog/assets/68765056/e0f55106-7b57-44fb-8a03-bbd5ce01d00b)
 
