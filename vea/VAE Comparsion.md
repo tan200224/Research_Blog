@@ -20,11 +20,11 @@ The model can reconstruct the images better than the first method. The reconstru
 ![Screenshot 2024-06-07 171238](https://github.com/tan200224/Research_Blog/assets/68765056/6581fa00-d7a2-4c9f-92ac-4f8fd9c56bca)
 
 ## The fourth method (3D)
-For this approach, we are not able to get it to work yet. The model since to be more complicated and requires a lot of computation power. We were not even able to train the model due to the error that memory in the GPU was running out. The GPU that was used for this experiment is RTX 4090, which contains 24GB of RAM. 
+For this approach, we are not able to get it to work yet. The model is more complicated and requires a lot of computation power. We were not even able to train the model due to the error that memory in the GPU was running out. The GPU that was used for this experiment is RTX 4090, which contains 24GB of RAM. 
 
 # Challenage
 1. The size of the model and input image can be confusing
-2. The 3D model seem to take a lot of memory from the GPU
+2. The 3D model seems to take a lot of memory from the GPU
 
 # Reference
 [Training a Convolutional Variational Autoencoder on 3D CFD Turbulence Data](https://medium.com/@agrija9/training-a-convolutional-variational-autoencoder-on-3d-cfd-turbulence-data-7df8e207a58f)
@@ -32,4 +32,23 @@ For this approach, we are not able to get it to work yet. The model since to be 
 [Tutorial: Abdominal CT Image Synthesis with Variational Autoencoders using PyTorch](https://medium.com/miccai-educational-initiative/tutorial-abdominal-ct-image-synthesis-with-variational-autoencoders-using-pytorch-933c29bb1c90)
 
 
-# 2D VAE with different comparison with different complicity
+# 2D VAE with different comparisons with different complicity
+1. Base of 32
+2. Base of 64
+3. Base of 128
+
+## To run the VAE to generate the data, we started by creating a custom dataset:
+1. Load the data from the path
+2. get the nii data
+3. turn them into tensor with float 32
+4. we crop the image by [30:-30, 100:-100, :] to get rid of use less black space
+5. We bound the intensity in between -50 to 200, and normalized them between 0 and 1
+6. We permute the data to make sure we have (channel, height, and width) for the VAE to work
+7. Finally, we resize the image to 256*256*4, (We had run the experiment with 128, but it didn't work well)
+
+## Performence 
+It seems that the more layers we have in the VAE, the better the result we get. However, the more layer makes the model bigger and training longer. 
+There was a significant improvement, jumping from 32 to 64. 
+However, the result seems like that both 64 and 128 is able to generate some good synthetic CT-scan. This also depends on how far away the data point is from the mu in the latent space. The base 128 model requires a bigger number of alpha * sigma to really be able to see the changes 
+
+
