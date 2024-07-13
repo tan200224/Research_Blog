@@ -33,3 +33,10 @@ The model that we used is the 3D Unet
       ).to(device)
 
 However, 4 slices are not able to have 5 layers. Therefore, we have to change the strides for each of the images to make sure that they are not reducing the depth to less than 1. 
+
+
+## Result
+![Screenshot 2024-07-13 115320](https://github.com/user-attachments/assets/a829c471-87c3-41ba-91fc-6ab271c22ada)
+![Screenshot 2024-07-13 115507](https://github.com/user-attachments/assets/e999ebe8-1bc6-4587-b8bc-08560692fd79)
+
+![Screenshot 2024-07-13 115532](https://github.com/user-attachments/assets/0b3d2b28-ea3a-4013-b126-be7fa749d0bc)
