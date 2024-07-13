@@ -56,13 +56,18 @@
 
 # Result:
 ## A large annotated medical image dataset
-![Screenshot 2024-07-12 181117](https://github.com/user-attachments/assets/6fa336b5-e7d5-468c-87fa-a2dd02238590)
-![Screenshot 2024-07-12 181348](https://github.com/user-attachments/assets/070c6b2e-a31b-496e-8322-325728eeb190)
+![Screenshot 2024-07-12 215216](https://github.com/user-attachments/assets/45f02539-fb70-4719-be00-ccacee3c1d0c)
+![Screenshot 2024-07-12 215348](https://github.com/user-attachments/assets/13b012ea-9c5d-4b56-85c7-f84145fdd8a5)
 
-![Screenshot 2024-07-12 181420](https://github.com/user-attachments/assets/a709f4e8-cb79-481d-bb24-6180984667aa)
+![Screenshot 2024-07-12 215453](https://github.com/user-attachments/assets/e569312d-6123-49d1-ad5f-78258046a73b)
 
 
 
+## Kaggle
+![image](https://github.com/user-attachments/assets/bb03301e-caf6-4385-8b0c-d49733f48b6b)
+![Screenshot 2024-07-12 201759](https://github.com/user-attachments/assets/0546b682-ec13-49fe-b896-5733c0ecd261)
+
+![Screenshot 2024-07-12 201826](https://github.com/user-attachments/assets/81853e73-51ee-45d2-927d-e4332cfd6993)
 
 
 
