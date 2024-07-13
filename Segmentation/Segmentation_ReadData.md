@@ -62,14 +62,17 @@
 ![Screenshot 2024-07-12 215453](https://github.com/user-attachments/assets/e569312d-6123-49d1-ad5f-78258046a73b)
 
 
-
 ## Kaggle
 ![image](https://github.com/user-attachments/assets/bb03301e-caf6-4385-8b0c-d49733f48b6b)
 ![Screenshot 2024-07-12 201759](https://github.com/user-attachments/assets/0546b682-ec13-49fe-b896-5733c0ecd261)
 
 ![Screenshot 2024-07-12 201826](https://github.com/user-attachments/assets/81853e73-51ee-45d2-927d-e4332cfd6993)
 
+## Combined
+![Screenshot 2024-07-13 011523](https://github.com/user-attachments/assets/fc15bc34-16c3-4033-b440-3a220cac1b49)
+![Screenshot 2024-07-13 011820](https://github.com/user-attachments/assets/b992a30d-8c13-401c-846c-aa22554b3848)
 
+![Screenshot 2024-07-13 011923](https://github.com/user-attachments/assets/a8ef959b-575c-4934-a6af-9ea23a3214dd)
 
 
 
