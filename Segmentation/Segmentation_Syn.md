@@ -36,6 +36,7 @@ However, 4 slices are not able to have 5 layers. Therefore, we have to change th
 
 
 ## Result
+### Model 128, alpha between -0.05 to 0.05
 ![Screenshot 2024-07-13 115320](https://github.com/user-attachments/assets/a829c471-87c3-41ba-91fc-6ab271c22ada)
 ![Screenshot 2024-07-13 115507](https://github.com/user-attachments/assets/e999ebe8-1bc6-4587-b8bc-08560692fd79)
 
