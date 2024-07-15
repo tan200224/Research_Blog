@@ -75,13 +75,17 @@
 ![Screenshot 2024-07-13 011923](https://github.com/user-attachments/assets/a8ef959b-575c-4934-a6af-9ea23a3214dd)
 
 
-# Model Setup (strides = ((2, 2, 1), (2, 2, 1), (2, 2, 1), (1, 1, 1)))
+# Model Setup (strides = ((2, 2, 1), (2, 2, 1), (2, 2, 1), (2, 2, 1)))
 ## Combined
 ![Screenshot 2024-07-15 013522](https://github.com/user-attachments/assets/5b324308-86f8-427e-80ec-1d431f44807f)
 ![Screenshot 2024-07-15 013827](https://github.com/user-attachments/assets/01b8224d-c5a3-4adc-95ad-fe5b5d11861e)
 
 ![Screenshot 2024-07-15 013857](https://github.com/user-attachments/assets/5f141335-2e34-4fea-b4c5-a61ec06a6388)
 
+## Kaggle
+![Screenshot 2024-07-15 021244](https://github.com/user-attachments/assets/3294af39-a32b-40cd-b7ad-3f30e13f87aa)
+![Screenshot 2024-07-15 021526](https://github.com/user-attachments/assets/16ee2b40-879a-448a-ae1e-f57a28117919)
 
+![Screenshot 2024-07-15 021550](https://github.com/user-attachments/assets/0e6d9e5c-9365-4cac-afc4-bfd58705d1d8)
 
-
+## A large annotated medical image dataset
