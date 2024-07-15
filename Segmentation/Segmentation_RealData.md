@@ -27,7 +27,7 @@
         
         return data, label
 
-# Model Setup
+# Model Setup (strides = ((2, 2, 1), (2, 2, 1), (2, 2, 1), (1, 1, 1)))
 
     def dice_metric(predicted, target):
         dice_value = DiceLoss(to_onehot_y=True, sigmoid=True, squared_pred=True)
@@ -75,6 +75,12 @@
 ![Screenshot 2024-07-13 011923](https://github.com/user-attachments/assets/a8ef959b-575c-4934-a6af-9ea23a3214dd)
 
 
+# Model Setup (strides = ((2, 2, 1), (2, 2, 1), (2, 2, 1), (1, 1, 1)))
+## Combined
+![Screenshot 2024-07-15 013522](https://github.com/user-attachments/assets/5b324308-86f8-427e-80ec-1d431f44807f)
+![Screenshot 2024-07-15 013827](https://github.com/user-attachments/assets/01b8224d-c5a3-4adc-95ad-fe5b5d11861e)
+
+![Screenshot 2024-07-15 013857](https://github.com/user-attachments/assets/5f141335-2e34-4fea-b4c5-a61ec06a6388)
 
 
 
