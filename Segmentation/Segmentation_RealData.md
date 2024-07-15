@@ -55,12 +55,12 @@
 
 
 # Result:
+## Model Setup (strides = ((2, 2, 1), (2, 2, 1), (2, 2, 1), (1, 1, 1)))
 ## A large annotated medical image dataset
 ![Screenshot 2024-07-12 215216](https://github.com/user-attachments/assets/45f02539-fb70-4719-be00-ccacee3c1d0c)
 ![Screenshot 2024-07-12 215348](https://github.com/user-attachments/assets/13b012ea-9c5d-4b56-85c7-f84145fdd8a5)
 
 ![Screenshot 2024-07-12 215453](https://github.com/user-attachments/assets/e569312d-6123-49d1-ad5f-78258046a73b)
-
 
 ## Kaggle
 ![image](https://github.com/user-attachments/assets/bb03301e-caf6-4385-8b0c-d49733f48b6b)
@@ -74,21 +74,28 @@
 
 ![Screenshot 2024-07-13 011923](https://github.com/user-attachments/assets/a8ef959b-575c-4934-a6af-9ea23a3214dd)
 
+## 75 Epochs
+## A large annotated medical image dataset
+![image](https://github.com/user-attachments/assets/ae401f70-2330-4254-9e35-ba9937830961)
+![image](https://github.com/user-attachments/assets/f12af637-d9ab-4937-9842-5577a57bcb5a)
 
-# Model Setup (strides = ((2, 2, 1), (2, 2, 1), (2, 2, 1), (2, 2, 1)))
-## Combined
+![image](https://github.com/user-attachments/assets/629fdec1-fb50-4816-85ce-607597767e6f)
+
+
+## Model Setup (strides = ((2, 2, 1), (2, 2, 1), (2, 2, 1), (2, 2, 1)))
+### Combined
 ![Screenshot 2024-07-15 013522](https://github.com/user-attachments/assets/5b324308-86f8-427e-80ec-1d431f44807f)
 ![Screenshot 2024-07-15 013827](https://github.com/user-attachments/assets/01b8224d-c5a3-4adc-95ad-fe5b5d11861e)
 
 ![Screenshot 2024-07-15 013857](https://github.com/user-attachments/assets/5f141335-2e34-4fea-b4c5-a61ec06a6388)
 
-## Kaggle
+### Kaggle
 ![Screenshot 2024-07-15 021244](https://github.com/user-attachments/assets/3294af39-a32b-40cd-b7ad-3f30e13f87aa)
 ![Screenshot 2024-07-15 021526](https://github.com/user-attachments/assets/16ee2b40-879a-448a-ae1e-f57a28117919)
 
 ![Screenshot 2024-07-15 021550](https://github.com/user-attachments/assets/0e6d9e5c-9365-4cac-afc4-bfd58705d1d8)
 
-## A large annotated medical image dataset
+### A large annotated medical image dataset
 ![Screenshot 2024-07-15 030035](https://github.com/user-attachments/assets/b2b331a0-1feb-4038-b472-c157ae21449e)
 ![Screenshot 2024-07-15 030158](https://github.com/user-attachments/assets/baaf7920-ec31-4080-aa10-0d552fc79268)
 
