@@ -14,7 +14,7 @@
 
 ## Synthetic Data
 ### Data Prcoessing
-1. Since the synthetic data was training with from the data that are transformed, so we only add changed the shape and adding a channel.
+1. Since the synthetic data was training with from the data that are transformed, so we only changed the shape and adding a channel.
 
 ### Loading data
 We used ConcatDataset to concat the real data and synthetic data together. The synthetic data and real data might have the same mask.
