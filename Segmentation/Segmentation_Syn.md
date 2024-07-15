@@ -43,7 +43,7 @@ However, 4 slices are not able to have 5 layers. Therefore, we have to change th
 ![Screenshot 2024-07-13 115532](https://github.com/user-attachments/assets/0b3d2b28-ea3a-4013-b126-be7fa749d0bc)
 
 
-### Model 64, alpha between -0.005 to 0.006
+### Model 64, alpha between -0.005 to 0.005
 ![Screenshot 2024-07-13 144507](https://github.com/user-attachments/assets/81062e0c-8f9d-4491-9993-e06e506c7d7e)
 ![Screenshot 2024-07-13 144734](https://github.com/user-attachments/assets/fea51d3a-0c9e-4bb8-97fc-ffcee47f5ce6)
 
