@@ -27,7 +27,7 @@ The model that we used is the 3D Unet
           in_channels = 1,
           out_channels = 2,
           channels = (16, 32, 64, 128, 256),
-          strides = ((2, 2, 1), (2, 2, 1), (2, 2, 1), (2, 2, 1)),
+          strides = ((2, 2, 1), (2, 2, 1), (2, 2, 1), (1, 1, 1)),
           num_res_units = 2,
           norm = Norm.BATCH
       ).to(device)
