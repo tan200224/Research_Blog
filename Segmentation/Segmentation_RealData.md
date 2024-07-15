@@ -81,6 +81,12 @@
 
 ![image](https://github.com/user-attachments/assets/629fdec1-fb50-4816-85ce-607597767e6f)
 
+## Kaggle
+![image](https://github.com/user-attachments/assets/a21a55b5-adbc-4955-9c9f-aa0d326177e5)
+![image](https://github.com/user-attachments/assets/701e93b9-6319-48b8-bc1c-81cfb9e85b4e)
+
+![image](https://github.com/user-attachments/assets/a3d2006c-a0e5-425b-a925-a29130fb15e6)
+
 
 ## Model Setup (strides = ((2, 2, 1), (2, 2, 1), (2, 2, 1), (2, 2, 1)))
 ### Combined
