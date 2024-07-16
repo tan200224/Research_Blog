@@ -36,28 +36,28 @@ However, 4 slices are not able to have 5 layers. Therefore, we have to change th
 
 
 # Result
-## Model 128, alpha between -0.05 to 0.05
-![Screenshot 2024-07-13 115320](https://github.com/user-attachments/assets/a829c471-87c3-41ba-91fc-6ab271c22ada)
+# Model 128, alpha between -0.05 to 0.05
+![Screenshot 2024-07-13 115320](https://github.com/user-attachments/assets/a829c471-87c3-41ba-91fc-6ab271c22ada) 
 ![Screenshot 2024-07-13 115507](https://github.com/user-attachments/assets/e999ebe8-1bc6-4587-b8bc-08560692fd79)
 
 ![Screenshot 2024-07-13 115532](https://github.com/user-attachments/assets/0b3d2b28-ea3a-4013-b126-be7fa749d0bc)
 
-
-## Model 64, alpha between -0.005 to 0.005, strides = ((2, 2, 1), (2, 2, 1), (2, 2, 1), (2, 2, 1)),
+# Model 64, alpha between -0.005 to 0.005, strides = ((2, 2, 1), (2, 2, 1), (2, 2, 1), (2, 2, 1)),
 ![Screenshot 2024-07-13 144507](https://github.com/user-attachments/assets/81062e0c-8f9d-4491-9993-e06e506c7d7e)
 ![Screenshot 2024-07-13 144734](https://github.com/user-attachments/assets/fea51d3a-0c9e-4bb8-97fc-ffcee47f5ce6)
 
 ![Screenshot 2024-07-13 144757](https://github.com/user-attachments/assets/6bbd1fe7-3a15-49bb-88ac-231c027db212)
 
-## Model 64, alpha between -0.005 to 0.005,  strides = ((2, 2, 1), (2, 2, 1), (2, 2, 1), (1, 1, 1))
+# Model 64, alpha between -0.005 to 0.005,  strides = ((2, 2, 1), (2, 2, 1), (2, 2, 1), (1, 1, 1))
 ![image](https://github.com/user-attachments/assets/0df9110d-13c4-4279-bc7a-37082a582f49)
 ![Screenshot 2024-07-15 134656](https://github.com/user-attachments/assets/2dedb07c-5731-4a77-990e-36e769f334d8)
 
 ![Screenshot 2024-07-15 134718](https://github.com/user-attachments/assets/422964e4-d547-4787-a7be-b86339eb4612)
 
-## Model 64, alpha between -0.005 to 0.005,  strides = ((2, 2, 1), (2, 2, 1), (2, 2, 1), (1, 1, 1)), excluding testing synthetic data
+# Model 64, alpha between -0.005 to 0.005,  strides = ((2, 2, 1), (2, 2, 1), (2, 2, 1), (1, 1, 1)), excluding testing synthetic data
 ![image](https://github.com/user-attachments/assets/45e978d3-7ba1-47d5-9582-119db442e3f5)
 ![Screenshot 2024-07-15 170958](https://github.com/user-attachments/assets/5deb66fb-bc31-4268-bab0-62655562cb75)
 
 ![image](https://github.com/user-attachments/assets/6c5cf839-62b9-44d4-be6f-c9866f141308)
 
+# Model 64, alpha between -0.005 to 0.005,  strides = ((2, 2, 1), (2, 2, 1), (2, 2, 1), (1, 1, 1)), only synthetic data
