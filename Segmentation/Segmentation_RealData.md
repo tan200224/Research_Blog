@@ -87,6 +87,11 @@
 
 ![image](https://github.com/user-attachments/assets/a3d2006c-a0e5-425b-a925-a29130fb15e6)
 
+## Combine
+![image](https://github.com/user-attachments/assets/c22c3357-5bf3-4698-89d6-9335d127e204)
+![image](https://github.com/user-attachments/assets/6933b938-146b-4246-a86d-a4f28030d6b0)
+
+![image](https://github.com/user-attachments/assets/01275173-7ee9-49c9-a9b8-725730fe1514)
 
 ## Model Setup (strides = ((2, 2, 1), (2, 2, 1), (2, 2, 1), (2, 2, 1)))
 ### Combined
