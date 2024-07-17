@@ -60,4 +60,19 @@ However, 4 slices are not able to have 5 layers. Therefore, we have to change th
 
 ![image](https://github.com/user-attachments/assets/6c5cf839-62b9-44d4-be6f-c9866f141308)
 
+# Model 64, alpha between -0.005 to 0.005,  strides = ((2, 2, 1), (2, 2, 1), (2, 2, 1), (1, 1, 1)) 33% Synthetic data
+![Screenshot 2024-07-16 144449](https://github.com/user-attachments/assets/7307495a-4562-4007-a30a-e0f7ddd3f15b)
+![Screenshot 2024-07-16 144511](https://github.com/user-attachments/assets/03b7e2c2-0e4a-424f-b7e4-0f6f28076c22)
+
+# Model 64, alpha between -0.005 to 0.005,  strides = ((2, 2, 1), (2, 2, 1), (2, 2, 1), (1, 1, 1)) 10% Synthetic data
+![Screenshot 2024-07-16 155420](https://github.com/user-attachments/assets/644e4bdc-efba-495a-808f-37d14ce0e7c4)
+![Screenshot 2024-07-16 155406](https://github.com/user-attachments/assets/9ff75ec1-1de3-42e9-8bf8-df14f3e5ad45)
+
+# Model 64, alpha between -0.005 to 0.005,  strides = ((2, 2, 1), (2, 2, 1), (2, 2, 1), (1, 1, 1)) 75% Synthetic data
+![image](https://github.com/user-attachments/assets/af4914e4-efc2-4a79-ac2d-92fbf9492f89)
+![image](https://github.com/user-attachments/assets/642e1bc0-3aad-40ea-9054-5a79282dee1a)
+
+
+
+
 # Model 64, alpha between -0.005 to 0.005,  strides = ((2, 2, 1), (2, 2, 1), (2, 2, 1), (1, 1, 1)), only synthetic data
