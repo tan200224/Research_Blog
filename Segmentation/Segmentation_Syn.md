@@ -73,6 +73,12 @@ However, 4 slices are not able to have 5 layers. Therefore, we have to change th
 ![image](https://github.com/user-attachments/assets/642e1bc0-3aad-40ea-9054-5a79282dee1a)
 
 
-
-
 # Model 64, alpha between -0.005 to 0.005,  strides = ((2, 2, 1), (2, 2, 1), (2, 2, 1), (1, 1, 1)), only synthetic data
+
+# 50%
+![Screenshot 2024-07-17 023416](https://github.com/user-attachments/assets/16ef41b0-4c5b-465b-8977-745f0a25cb5b)
+![Uploading Screenshot 2024-07-17 023421.png…]()
+
+
+
+
