@@ -79,5 +79,10 @@ GAN took longer time to finished the training, and it is hard to determine when 
 # Result
 ![image](https://github.com/user-attachments/assets/76eefd75-c5c6-4575-812a-d41932bc4671)
 
+![image](https://github.com/user-attachments/assets/aa763409-5f57-42c9-864e-7b6e4e380fe6)
+![image](https://github.com/user-attachments/assets/5917dd15-268f-493c-811b-543a61d4d32b)
+![image](https://github.com/user-attachments/assets/d7832d6b-4baa-4eab-9adc-34e7acd71ef8)
+![image](https://github.com/user-attachments/assets/3b572201-3adb-431e-9231-d8517327f68f)
+![image](https://github.com/user-attachments/assets/a8b995b7-144e-4549-bbc0-ed8280523ad2)
 
     
