@@ -35,6 +35,7 @@ The overall result shows that the quality of this synthetic CT scan still needs 
 
 # Segmentation Model
 The segmentation model is used to locate where the pancreas is from the CT Scan
+
 ![image](https://github.com/user-attachments/assets/e8fdf2de-d5a3-4b5f-8caf-bf7cde4cd8fe)
 
 ### Evaluate the Segmentation Model Using Dice Value
@@ -43,10 +44,12 @@ The dice value measures the intersection area between the doctor's annotation an
 ![image](https://github.com/user-attachments/assets/22eb41e4-6822-47e3-a16e-7b16e9148eeb)
 
 ### Training the segmentation model:
+
 ![image](https://github.com/user-attachments/assets/1c9b7b86-6d25-4c5c-ad64-e55a92fafc98)
 
 # Current Experiment Result
 ### Training segmentation model with synthetic and real CT scan
+
 ![image](https://github.com/user-attachments/assets/460cc168-4c77-4644-9859-e47b901cbea7)
 
 # Future/Current Plans 
