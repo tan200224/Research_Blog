@@ -1,77 +1,66 @@
-# Research Proposal
-[Improving Early Diagnosis of Pancreatic Cancer with Synthetic Data](https://drive.google.com/file/d/1-e8EIY0hvOhud3bIM0zMkr6vkCG-FE8k/view?usp=sharing)
+# Improving Early Diagnosis of Pancreatic Cancer with generative AI models
+Zhuohao(Archie) Tan and Dr. Spurlock
 
-# Pancreatic Image Modality Database
+## Problem/Background: 
+Pancreatic cancer is a disease with a high mortality rate due to a lack of early symptoms and data scarcity. Recent research has focused on improving AI models to produce more accurate diagnoses given medical images such as CT scans. Existing AI diagnosis models, trained on publicly available medical image datasets, often struggle with diagnosis because of limited training data. Our research provides an innovative approach to improving training data, which can be used to make existing diagnosis models better. We seek to train a model to generate realistic synthetic CT scans, which can then be used to improve the performance of pancreas segmentation and classification models. Our research investigates multiple generative models, including GAN (Generative Adversarial Network) and VAE (Variational Autoencoder). After training the generative models with real CT scans, the models generate synthetic CT scan datasets that mimic realistic pancreatic cancer CT scans; these realistic CT scans contain small tumors that doctors easily miss. To evaluate the performance of different synthetic datasets, multiple model training experiments combine various ratios of synthetic and real data. Two common metrics, Dice value and Binary Cross Entropy (BCE) are used to understand how realistic the synthetic images are, as well as their correlation with real pancreas annotations. Overall, our anticipated result is to generate realistic CT scans that can help train more accurate pancreatic cancer diagnosis models in the future.
 
-1. [Kaggle Pancreas CT](https://www.kaggle.com/datasets/salihayesilyurt/pancreas-ct)
-   
-2. [Biobank Pancreatic MRI](https://biobank.ndph.ox.ac.uk/showcase/label.cgi?id=131)
-   
-3. [Cancer Imaging Archive Pancreatic CT](https://nbia.cancerimagingarchive.net/nbia-search/)
-   
-4. [Multiplex-Immunoflourescent Staining of Rapid Autopsy Samples from Human Pancreatic Cancer at the Primary and Metastatic Sites](https://edrn-labcas.jpl.nasa.gov/labcas-ui/c/index.html?collection_id=Multiplex_IF_Staining_Pancreatic_Cancer)
-   
-5. [A large annotated medical image dataset for the development and evaluation of segmentation algorithms](https://drive.google.com/drive/folders/1HqEgzS8BV2c7xYNrZdEAnrHk7osJJ--2) Label unbalanced with large background, medium pancreas, and small tumor structures, 420 3D CT Scans
+## Datasets:
+![image](https://github.com/user-attachments/assets/baa3e03a-6d73-4de1-81de-2a84abe860ce)
 
 
+## Generate CT Scan Past Attempts 
+In the past, we have attempted different approaches and built different models to generate synthetic CT Scan:
+By using VAE, we want to be able to have some control over adjusting how the synthetic CT scan looks like 
+1. 3D VAE model
+     * The model is more complicated
+     * Requires a lot of computation power
+2. 2D VAE model
+     * Easy to implement and build upon
+     * The result is not bad
+3. Mask to CT scan model
+     * The VAE encodes the mask/pancreas annotation and decodes it back to CT Scan 
+4. VAE-GAN model
+     * The VAE encodes the mask/pancreas annotation and decodes it back to CT Scan
+     * Added a discriminator to lower the blurriness of the CT scan image quality
 
-# Pancreatic Cancer Relevant Reading
+![image](https://github.com/user-attachments/assets/1581efe0-89c8-4c12-a4ba-3b17ebb47689)
+![image](https://github.com/user-attachments/assets/80547cb7-40da-40f2-95bb-742181fe7ae2)
 
-1. [AI innovation inspires hope in early detection of pancreatic cancer](https://newsnetwork.mayoclinic.org/discussion/mayo-clinics-ai-innovation-inspires-hope-in-early-detection-of-pancreatic-cancer/#:~:text=In%20a%20recent%20breakthrough%2C%20Mayo,intervention%20can%20still%20promise%20a)
+# Synthetic CT Scan Image View
+The smaller 𝞼 value indicates the less difference from the original image.
 
-2. [Automated Artificial Intelligence Model Trained on a Large Data Set Can Detect Pancreas Cancer on Diagnostic Computed Tomography Scans As Well As Visually Occult Preinvasive Cancer on Prediagnostic Computed Tomography Scans](https://www.gastrojournal.org/article/S0016-5085(23)04958-2/fulltext)
+The overall result shows that the quality of this synthetic CT scan still needs to be improved, reducing blurriness
 
-3. [Pancreatic Cancer Detection on CT Scans with Deep Learning: A Nationwide Population-based Study](https://pubs.rsna.org/doi/10.1148/radiol.220152)
+![image](https://github.com/user-attachments/assets/cd01df4a-9c40-468b-b69a-6f0ed06e482c)
 
-4. [A large annotated medical image dataset for the development and evaluation of segmentation algorithms](https://arxiv.org/abs/1902.09063)
+# Segmentation Model
+The segmentation model is used to locate where the pancreas is from the CT Scan
 
-5. [The Medical Segmentation Decathlon](https://www.nature.com/articles/s41467-022-30695-9)
+![image](https://github.com/user-attachments/assets/e8fdf2de-d5a3-4b5f-8caf-bf7cde4cd8fe)
 
-6. [Early Detection and Localization of Pancreatic Cancer by Label-Free Tumor Synthesis](https://arxiv.org/abs/2308.03008)
+### Evaluate the Segmentation Model Using Dice Value
+The dice value measures the intersection area between the doctor's annotation and the model's prediction of the pancreas' location 
 
-7. [Semantic segmentation of pancreatic medical images by using convolutional neural network](https://www.sciencedirect.com/science/article/pii/S1746809421010557)
+![image](https://github.com/user-attachments/assets/22eb41e4-6822-47e3-a16e-7b16e9148eeb)
 
-8. [AX-Unet: A Deep Learning Framework for Image Segmentation to Assist Pancreatic Tumor Diagnosis](https://www.frontiersin.org/journals/oncology/articles/10.3389/fonc.2022.894970/full)
+### Training the segmentation model:
 
-9. [Tutorial: Abdominal CT Image Synthesis with Variational Autoencoders using PyTorch](https://medium.com/miccai-educational-initiative/tutorial-abdominal-ct-image-synthesis-with-variational-autoencoders-using-pytorch-933c29bb1c90)
+![image](https://github.com/user-attachments/assets/1c9b7b86-6d25-4c5c-ad64-e55a92fafc98)
 
-10. [Training a Convolutional Variational Autoencoder on 3D CFD Turbulence Data](https://medium.com/@agrija9/training-a-convolutional-variational-autoencoder-on-3d-cfd-turbulence-data-7df8e207a58f)
+# Current Experiment Result
+### Training segmentation model with synthetic and real CT scan
 
+![image](https://github.com/user-attachments/assets/460cc168-4c77-4644-9859-e47b901cbea7)
 
-# Tutorial
-1. [PyTorch and Monai for AI Healthcare Imaging - Python Machine Learning Course](https://youtu.be/M3ZWfamWrBM?si=Jb128JhHg0UcZ8HE)
+# Future/Current Plans 
+Despite our initial experiments showing that synthetic data generated through Variational Autoencoders (VAEs) did not significantly enhance the performance of our segmentation model, we remain committed to improving our approach. Moving forward, we plan to explore a variety of alternative methods to improve the quality and effectiveness of synthetic data. 
+1. Adjust the parameters
+2. Change the input and architecture of our VAE
+3. Explore other generative techniques, such as:
+   * Generative Adversarial Networks (GANs)
+   * Diffusion model
+4. Enhancing data complexity and variability
 
-2. [Create Infinite Medical Imaging Data with Generative AI](https://youtu.be/YHTSdd8-bnc?si=2s2ncxpQwdmnxG7F)
-
-3. [AI Applications in Medical Imaging Segmentation](https://youtu.be/ryUCJHk2ckU?si=2LbeIxvmWohfSxnY)
-
-# Resources
-1. [MONAI](https://monai.io/started.html)
-
-2. [CUDA](https://developer.nvidia.com/cuda-downloads)
-
-3. [cuDNN](https://developer.nvidia.com/cudnn)
-
-4. [State-of-Art Model for Medical Imaging](https://paperswithcode.com/sota/medical-image-segmentation-on-kvasir-seg)
-
-Image classification vs. Object Detection vs. Image Segmentation 
-<img width="1814" alt="image" src="https://github.com/tan200224/Blog/assets/68765056/b342247c-b048-4383-b88e-d149e7fd69ad">
-
-# Relevent Conference
-1. WACV
-2. MICCAI
-3. [CVPR](https://cvpr.thecvf.com/)
-4. ICIP
-5. [CCSC](http://ccscse.org/conference.php?year=38th)
-
-
-# Blog
-1. [OpenCV](OpenCV)
-2. [CNN](CNN)
-3. [Data Covert & Preprocess](DataCovert&Preprocess.md)
-4. [Training](Experiments/training.md)
-5. [Four-Fold](Experiments/FourFold64.md)
-
-
-
-
+# Question for you!
+### Which one is real, and which one is fake? 
+![image](https://github.com/user-attachments/assets/e31d4904-bf89-41eb-8c9d-51f2f7b895ba)
