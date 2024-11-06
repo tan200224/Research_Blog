@@ -34,7 +34,7 @@ The overall result shows that the quality of this synthetic CT scan still needs 
 ![image](https://github.com/user-attachments/assets/cd01df4a-9c40-468b-b69a-6f0ed06e482c)
 
 # Segmentation Model
-The segmentation model is used to locate where the pancreas is at from the CT Scan
+The segmentation model is used to locate where the pancreas is from the CT Scan
 ![image](https://github.com/user-attachments/assets/e8fdf2de-d5a3-4b5f-8caf-bf7cde4cd8fe)
 
 ### Evaluate the Segmentation Model Using Dice Value
@@ -53,7 +53,7 @@ The dice value measures the intersection area between the doctor's annotation an
 Despite our initial experiments showing that synthetic data generated through Variational Autoencoders (VAEs) did not significantly enhance the performance of our segmentation model, we remain committed to improving our approach. Moving forward, we plan to explore a variety of alternative methods to improve the quality and effectiveness of synthetic data. 
 1. Adjust the parameters
 2. Change the input and architecture of our VAE
-3. Explore other generative techniques such as
+3. Explore other generative techniques, such as:
    * Generative Adversarial Networks (GANs)
    * Diffusion model
 4. Enhancing data complexity and variability
