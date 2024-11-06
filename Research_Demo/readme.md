@@ -59,7 +59,7 @@ Despite our initial experiments showing that synthetic data generated through Va
 4. Enhancing data complexity and variability
 
 # Question for you!
-Which one is real, and which one is fake? 
+### Which one is real, and which one is fake? 
 ![image](https://github.com/user-attachments/assets/e31d4904-bf89-41eb-8c9d-51f2f7b895ba)
 
 
