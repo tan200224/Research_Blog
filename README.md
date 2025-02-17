@@ -54,12 +54,9 @@ The dice value measures the intersection area between the doctor's annotation an
 
 # Future/Current Plans 
 Despite our initial experiments showing that synthetic data generated through Variational Autoencoders (VAEs) did not significantly enhance the performance of our segmentation model, we remain committed to improving our approach. Moving forward, we plan to explore a variety of alternative methods to improve the quality and effectiveness of synthetic data. 
-1. Adjust the parameters
-2. Change the input and architecture of our VAE
-3. Explore other generative techniques, such as:
-   * Generative Adversarial Networks (GANs)
-   * Diffusion model
-4. Enhancing data complexity and variability
+1. Adjusting the GAN model by adding encoder loss
+2. Use a smaller sample size of data to create better-quality synthetic images
+3. Use conditional diffusion model
 
 # Question for you!
 ### Which one is real, and which one is fake? 
