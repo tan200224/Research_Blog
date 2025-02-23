@@ -4,6 +4,11 @@ Zhuohao(Archie) Tan and Dr. Scott Spurlock
 ## Problem/Background: 
 Pancreatic cancer is a disease with a high mortality rate due to a lack of early symptoms and data scarcity. Recent research has focused on improving AI models to produce more accurate diagnoses given medical images such as CT scans. Existing AI diagnosis models, trained on publicly available medical image datasets, often struggle with diagnosis because of limited training data. Our research provides an innovative approach to improving training data, which can be used to make existing diagnosis models better. We seek to train a model to generate realistic synthetic CT scans, which can then be used to improve the performance of pancreas segmentation and classification models. Our research investigates multiple generative models, including GAN (Generative Adversarial Network) and VAE (Variational Autoencoder). After training the generative models with real CT scans, the models generate synthetic CT scan datasets that mimic realistic pancreatic cancer CT scans; these realistic CT scans contain small tumors that doctors easily miss. To evaluate the performance of different synthetic datasets, multiple model training experiments combine various ratios of synthetic and real data. Two common metrics, Dice value and Binary Cross Entropy (BCE) are used to understand how realistic the synthetic images are, as well as their correlation with real pancreas annotations. Overall, our anticipated result is to generate realistic CT scans that can help train more accurate pancreatic cancer diagnosis models in the future.
 
+# Question for you!
+### Which one is real, and which one is fake? 
+![image](https://github.com/user-attachments/assets/e31d4904-bf89-41eb-8c9d-51f2f7b895ba)
+
+
 ## Datasets:
 ![image](https://github.com/user-attachments/assets/baa3e03a-6d73-4de1-81de-2a84abe860ce)
 
@@ -58,6 +63,4 @@ Despite our initial experiments showing that synthetic data generated through Va
 2. Use a smaller sample size of data to create better-quality synthetic images
 3. Use conditional diffusion model
 
-# Question for you!
-### Which one is real, and which one is fake? 
-![image](https://github.com/user-attachments/assets/e31d4904-bf89-41eb-8c9d-51f2f7b895ba)
+
