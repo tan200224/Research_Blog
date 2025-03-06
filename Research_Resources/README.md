@@ -40,6 +40,8 @@
 
 10. [Training a Convolutional Variational Autoencoder on 3D CFD Turbulence Data](https://medium.com/@agrija9/training-a-convolutional-variational-autoencoder-on-3d-cfd-turbulence-data-7df8e207a58f)
 
+# Diffusion Models
+1. [Metal implant segmentation in CT images based on diffusion model](https://bmcmedimaging.biomedcentral.com/articles/10.1186/s12880-024-01379-1)
 
 # Tutorial
 1. [PyTorch and Monai for AI Healthcare Imaging - Python Machine Learning Course](https://youtu.be/M3ZWfamWrBM?si=Jb128JhHg0UcZ8HE)
