@@ -27,6 +27,7 @@ By using VAE, we want to be able to have some control over adjusting how the syn
 4. VAE-GAN model
      * The VAE encodes the mask/pancreas annotation and decodes it back to CT Scan
      * Added a discriminator to lower the blurriness of the CT scan image quality
+5. Diffusion Model
 
 ![image](https://github.com/user-attachments/assets/1581efe0-89c8-4c12-a4ba-3b17ebb47689)
 ![image](https://github.com/user-attachments/assets/80547cb7-40da-40f2-95bb-742181fe7ae2)
